@@ -1,12 +1,11 @@
-use crate::types::Code;
+use std::collections::HashMap;
 use reqwest::blocking::Client;
-use select::document::Document;
-use select::predicate::{Attr, Class, Name, Predicate};
+use scraper::{Html, Selector};
 
 #[derive(Debug)]
 pub struct Instance {
     pub(crate) client: Client,
-    pub(crate) codes: Vec<Code>,
+    pub(crate) codes: HashMap<String, String>,
 }
 
 impl Instance {
@@ -22,7 +21,7 @@ impl Instance {
             .send()
             .unwrap();
 
-        let mut codes: Vec<(_, _)> = vec![];
+        let mut codes: HashMap<_, _> = HashMap::new();
 
         let table = client
             .get("https://intranet.wiut.uz/TimeTableNew/GetLessons")
@@ -32,29 +31,36 @@ impl Instance {
             .unwrap();
 
         let document = Html::parse_document(&table);
-        let selector = &Selector::parse(".dropdown1").unwrap();
+        let selector = &Selector::parse("select#ddlclass > option.dropdown-item").unwrap();
 
-        let childs = document.select(selector).map(|el| println!("{:?}",el));
+        let collection_course: Vec<&str> = document
+          .select(selector)
+          .flat_map(|el| el.text())
+          .collect();
 
-        // println!("{:?}", childs);
+        let collection_codes: Vec<&str> = document
+          .select(selector)
+          .flat_map(|el| el.value().attr("value"))
+          .collect();
+
+        for index in 0..collection_course.len() {
+            codes.insert(collection_course[index].to_string(), collection_codes[index].to_string());
+        }
 
         Instance { client, codes }
     }
 
-    pub fn get_timetable(&self, id: &str) {
+    pub fn get_timetable(&self, group: &str) {
+        println!("{}", &self.codes.get(group).unwrap());
         let response = &self
             .client
             .get(format!(
                 "https://intranet.wiut.uz/TimeTableNew/GetLessons?classid={}",
-                id
+                group
             ))
             .send()
             .unwrap()
             .text()
             .unwrap();
-
-        let parsed = Html::parse_document(response);
-
-        println!("{:?}", parsed)
     }
 }

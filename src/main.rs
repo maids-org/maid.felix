@@ -14,5 +14,5 @@ fn main() {
 
     let instance = Instance::new(credentials.0.as_str(), credentials.1.as_str());
 
-    dbg!(instance);
+    instance.get_timetable("3CIFS12");
 }

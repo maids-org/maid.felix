@@ -3,7 +3,7 @@ use regex::Regex;
 use scraper::{Html, Selector};
 use serde::Serialize;
 
-#[derive(Serialize, Debug)]
+#[derive(Serialize)]
 pub struct Lesson {
     /// Name of the module (eg "Introduction to Statistics and Data Science").
     pub name: String,
@@ -99,7 +99,7 @@ pub type Day = Vec<Lesson>;
 /// Timetable for one group at the universiy.
 /// There's one field for every weekday which contains a vector of Lessons for
 /// that given day. The vector is empty if there are no Lessons on that day.
-#[derive(Serialize, Debug)]
+#[derive(Serialize)]
 pub struct TimeTable {
     pub monday: Day,
     pub tuesday: Day,

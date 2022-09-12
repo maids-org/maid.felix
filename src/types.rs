@@ -29,16 +29,21 @@ impl Lesson {
             static ref KILL_BRACKETS_RE: Regex = Regex::new(r"\s?\(\s?\d+\s?\)").unwrap();
         }
         // get rid of strings with just whitespace and strings that have group names
-        let slot: Vec<&str> = slot
+        let mut slot: Vec<&str> = slot
             .into_iter()
             .filter(|text| !(text.trim().is_empty() || GROUP_RE.is_match(text)))
             .collect();
-        // non-empty slot at this point should look like:
-        // ["location", "module name_format_blah", "teacher"]
+
+        // for now one class does not have a location (5Fin6 Intro to Crypto)
+        if slot.len() == 2 {
+            slot.insert(0, "blockchain");
+        }
 
         if slot.is_empty() {
             None
         } else {
+            // non-empty slot at this point should look like:
+            // ["location", "module name_format_blah", "teacher"]
             let (name, format) = Self::process_class(slot[1]);
             let tutor = slot[2].trim().to_string();
             let start = 9.0 + index as f32;

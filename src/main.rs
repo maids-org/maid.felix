@@ -14,5 +14,9 @@ fn main() {
 
     let instance = Instance::new(credentials.0.as_str(), credentials.1.as_str());
 
-    instance.get_timetable("3CIFS12");
+    for group in instance.codes.keys() {
+        println!("Scraping: {}", group);
+        let timetable = instance.get_timetable(group);
+        println!("{:#?}", timetable);
+    }
 }

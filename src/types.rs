@@ -3,7 +3,7 @@ use regex::Regex;
 use scraper::{Html, Selector};
 use serde::Serialize;
 
-#[derive(Serialize)]
+#[derive(Serialize, Debug)]
 pub struct Lesson {
     /// Name of the module (eg "Introduction to Statistics and Data Science").
     pub name: String,
@@ -20,43 +20,25 @@ pub struct Lesson {
 }
 
 impl Lesson {
-    /// Construct a new instance of a Lesson given the timetable slot and the index
-    /// position of the slot (which is used for indicating start time).
-    fn new(slot: Vec<&str>, index: usize) -> Option<Lesson> {
+    /// Construct a new instance of a Lesson given the start time and data, which
+    /// at this point should look like:
+    /// ["location", "module name_format_blah", "teacher"]
+    fn new(start: f32, data: &[&str]) -> Lesson {
         lazy_static! {
-            static ref GROUP_RE: Regex =
-                Regex::new(r"\d(CIFS|BABM|BIS|CL|ECwF|Fin|BM(Fin|Mar))\d+").unwrap();
             static ref KILL_BRACKETS_RE: Regex = Regex::new(r"\s?\(\s?\d+\s?\)").unwrap();
         }
-        // get rid of strings with just whitespace and strings that have group names
-        let mut slot: Vec<&str> = slot
-            .into_iter()
-            .filter(|text| !(text.trim().is_empty() || GROUP_RE.is_match(text)))
-            .collect();
 
-        // for now one class does not have a location (5Fin6 Intro to Crypto)
-        if slot.len() == 2 {
-            slot.insert(0, "blockchain");
-        }
+        let (name, format) = Self::process_class(data[1]);
+        let tutor = data[2].trim().to_string();
+        let location = KILL_BRACKETS_RE.replace(data[0], "").trim().to_string();
 
-        if slot.is_empty() {
-            None
-        } else {
-            // non-empty slot at this point should look like:
-            // ["location", "module name_format_blah", "teacher"]
-            let (name, format) = Self::process_class(slot[1]);
-            let tutor = slot[2].trim().to_string();
-            let start = 9.0 + index as f32;
-            let location = KILL_BRACKETS_RE.replace(slot[0], "").trim().to_string();
-
-            Some(Lesson {
-                name,
-                tutor,
-                format,
-                start,
-                length: 1.0,
-                location,
-            })
+        Lesson {
+            name,
+            tutor,
+            format,
+            start,
+            length: 1.0,
+            location,
         }
     }
 
@@ -104,7 +86,7 @@ pub type Day = Vec<Lesson>;
 /// Timetable for one group at the universiy.
 /// There's one field for every weekday which contains a vector of Lessons for
 /// that given day. The vector is empty if there are no Lessons on that day.
-#[derive(Serialize)]
+#[derive(Serialize, Debug)]
 pub struct TimeTable {
     pub monday: Day,
     pub tuesday: Day,
@@ -127,22 +109,22 @@ impl TimeTable {
         }
     }
 
-    /// Parse the given HTML to construct a new instance of the TimeTable.
-    pub fn parse(table: Html) -> Self {
+    /// Construct a new instance of the TimeTable from parsing the html.
+    pub fn from_html(document: Html) -> Self {
         let mut timetable = TimeTable::new();
 
         // first row is excluded as it only has information about the timeslots
         let selector = Selector::parse("div.row.cf:not(:first-of-type)").unwrap();
-        let rows = table.select(&selector);
+        let rows = document.select(&selector);
 
         for (index, row) in rows.enumerate() {
-            // first slot is excluded as it only has info on weekday
+            // first slot is excluded as it only has info on weekdays
             let selector = Selector::parse("div.col:not(:first-of-type) .innerbox").unwrap();
             let slots = row
                 .select(&selector)
                 .map(|el| el.text().collect::<Vec<&str>>())
                 .collect::<Vec<_>>();
-            let day = Self::get_day(slots);
+            let day = Self::get_day_lessons(slots);
 
             match index {
                 0 => timetable.monday = day,
@@ -158,26 +140,61 @@ impl TimeTable {
         timetable
     }
 
-    /// Parse each slot and return a list of lessons for a given day.
-    fn get_day(slots: Vec<Vec<&str>>) -> Day {
+    ///  Return a list of lessons for a given day.
+    fn get_day_lessons(slots: Vec<Vec<&str>>) -> Day {
         let mut day: Vec<Lesson> = Vec::new();
-        for (index, slot) in slots.into_iter().enumerate() {
-            let lesson = Lesson::new(slot, index);
+        for (offset, slot) in slots.into_iter().enumerate() {
+            let lessons = Self::process_slot(slot, offset);
+            let number_of_lessons = lessons.len();
 
-            if let Some(lesson) = lesson {
-                match day.last_mut() {
-                    Some(last_lesson) => {
-                        if lesson.is_continuation(last_lesson) {
-                            last_lesson.prolong();
-                        } else {
-                            day.push(lesson)
+            for lesson in lessons {
+                let mut lesson_prolonged = false;
+                let start = match day.len().checked_sub(number_of_lessons) {
+                    Some(num) => num,
+                    None => 0,
+                };
+
+                for index in start..day.len() {
+                    if let Some(previous_lesson) = day.get_mut(index) {
+                        if lesson.is_continuation(previous_lesson) {
+                            previous_lesson.prolong();
+                            lesson_prolonged = true;
+                            break;
                         }
                     }
-                    None => day.push(lesson),
+                }
+
+                if !lesson_prolonged {
+                    day.push(lesson)
                 }
             }
         }
 
         day
+    }
+
+    /// Get a list of Lessons in the slot.
+    /// An empty vector will be returned if there are no Lessons.
+    fn process_slot(slot: Vec<&str>, offset: usize) -> Vec<Lesson> {
+        lazy_static! {
+            static ref GROUP_RE: Regex =
+                Regex::new(r"\d(CIFS|BABM|BIS|CL|ECwF|Fin|BM(Fin|Mar))\d+").unwrap();
+        }
+        // get rid of strings with just whitespace and strings that have group names
+        let mut data: Vec<&str> = slot
+            .into_iter()
+            .filter(|text| !(text.trim().is_empty() || GROUP_RE.is_match(text)))
+            .collect();
+
+        // for now one class does not have a location (5Fin6 Intro to Crypto)
+        if data.len() == 2 {
+            data.insert(0, "blockchain");
+        }
+
+        let mut lessons: Vec<Lesson> = Vec::new();
+        for (index, _) in data.iter().enumerate().step_by(3) {
+            lessons.push(Lesson::new(9.0 + offset as f32, &data[index..index + 3]));
+        }
+        lessons
     }
 }

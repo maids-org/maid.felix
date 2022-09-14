@@ -76,6 +76,6 @@ impl Instance {
 
         let document = Html::parse_document(&response);
 
-        TimeTable::parse(document)
+        TimeTable::from_html(document)
     }
 }

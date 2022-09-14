@@ -1,0 +1,93 @@
+{
+  "monday": [
+    {
+      "name": "Online",
+      "tutor": "Jamshid Nasretdinov",
+      "format": "lecture",
+      "start": 9.0,
+      "length": 1.0,
+      "location": "Lyceum Library"
+    },
+    {
+      "name": "Dissertation",
+      "tutor": "Behzod Alimov",
+      "format": "online lecture",
+      "start": 16.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Investment and Risk Management",
+      "tutor": "Hamid Waqas",
+      "format": "online lecture",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB311"
+    }
+  ],
+  "tuesday": [
+    {
+      "name": "Investment and Risk Management",
+      "tutor": "Ajay Jain",
+      "format": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "ATB302"
+    },
+    {
+      "name": "Investment and Risk Management",
+      "tutor": "Ajay Jain",
+      "format": "workshop",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "ATB214 CL"
+    }
+  ],
+  "wednesday": [
+    {
+      "name": "Dissertation",
+      "tutor": "Rashid Javed",
+      "format": "seminar",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "ATB311"
+    },
+    {
+      "name": "Labour Economics",
+      "tutor": "Deniz Guvercin",
+      "format": "online lecture",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "IB311"
+    }
+  ],
+  "thursday": [
+    {
+      "name": "Labour Economics",
+      "tutor": "Khilola Dushamova",
+      "format": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "IB101"
+    }
+  ],
+  "friday": [
+    {
+      "name": "Financial Reporting",
+      "tutor": "Jamshid Nasretdinov",
+      "format": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB211"
+    },
+    {
+      "name": "Financial Reporting",
+      "tutor": "Jamshid Nasretdinov",
+      "format": "workshop",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "ATB211"
+    }
+  ],
+  "saturday": []
+}

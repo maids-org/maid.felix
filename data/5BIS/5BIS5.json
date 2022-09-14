@@ -1,0 +1,149 @@
+{
+  "monday": [
+    {
+      "name": "Object Oriented Programming",
+      "tutor": "Avazkhan Khalikov",
+      "format": "lecture",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Object Oriented Programming",
+      "tutor": "Bunyod Khoshimkhujaev",
+      "format": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "ATB214 CL"
+    }
+  ],
+  "tuesday": [
+    {
+      "name": "Database Systems Development",
+      "tutor": "Hamid Shakhbazkia",
+      "format": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB209 CL"
+    },
+    {
+      "name": "Mobile Application Development",
+      "tutor": "Valeriya Tsoy",
+      "format": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "SHB305 CL"
+    },
+    {
+      "name": "Fundametals of Programming",
+      "tutor": "Timur Martinez Mukimov",
+      "format": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "SHB303 CL"
+    }
+  ],
+  "wednesday": [
+    {
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Olmas Isakov",
+      "format": "online lecture",
+      "start": 9.0,
+      "length": 1.0,
+      "location": "ATB209"
+    },
+    {
+      "name": "Brand Journalism and Content Strategy",
+      "tutor": "Angelo Battaglia",
+      "format": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "SHB302"
+    },
+    {
+      "name": "Brand Journalism and Content Strategy",
+      "tutor": "Angelo Battaglia",
+      "format": "workshop",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "SHB302"
+    },
+    {
+      "name": "Computer Science Fundamentals",
+      "tutor": "Olga Yugay",
+      "format": "online lecture",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "SHB305 CL"
+    }
+  ],
+  "thursday": [
+    {
+      "name": "Computer Science Fundamentals",
+      "tutor": "Olga Yugay",
+      "format": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "SHB303 CL"
+    },
+    {
+      "name": "Mobile Application Development",
+      "tutor": "Valeriya Tsoy",
+      "format": "lecture",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "SHB206 H"
+    },
+    {
+      "name": "Mobile Application Development",
+      "tutor": "Valeriya Tsoy",
+      "format": "workshop",
+      "start": 12.0,
+      "length": 1.0,
+      "location": "SHB206 H"
+    }
+  ],
+  "friday": [
+    {
+      "name": "Brand Journalism and Content Strategy",
+      "tutor": "Angelo Battaglia",
+      "format": "online lecture",
+      "start": 9.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Game Development",
+      "tutor": "Akmal Salikov",
+      "format": "lecture",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "SHB206 H"
+    },
+    {
+      "name": "Game Development",
+      "tutor": "Akmal Salikov",
+      "format": "workshop",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "SHB206 H"
+    },
+    {
+      "name": "Game Development",
+      "tutor": "Akmal Salikov",
+      "format": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "SHB305 CL"
+    },
+    {
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Evgeniya Shalaeva",
+      "format": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "IB316"
+    }
+  ],
+  "saturday": []
+}

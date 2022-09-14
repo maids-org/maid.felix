@@ -1,0 +1,76 @@
+{
+  "monday": [
+    {
+      "name": "Strategy in a Complex World",
+      "tutor": "Julian Pinerez",
+      "format": "online lecture",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "ATB303"
+    },
+    {
+      "name": "Digital Marketing",
+      "tutor": "Prabha Kiran",
+      "format": "online lecture",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB311"
+    },
+    {
+      "name": "Online / Project Management",
+      "tutor": "Iroda Komilova",
+      "format": "lecture",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "IB311"
+    }
+  ],
+  "tuesday": [
+    {
+      "name": "Digital Marketing",
+      "tutor": "Dilmurod Khodiev",
+      "format": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "SHB303 CL"
+    },
+    {
+      "name": "New Venture Creation",
+      "tutor": "Ahmed Waqas",
+      "format": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB218"
+    }
+  ],
+  "wednesday": [
+    {
+      "name": "Strategy in a Complex World",
+      "tutor": "Timur Perkov",
+      "format": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB207"
+    }
+  ],
+  "thursday": [
+    {
+      "name": "Project Management",
+      "tutor": "Ulugbek Islamov",
+      "format": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB208 CL"
+    },
+    {
+      "name": "Project Management",
+      "tutor": "Ulugbek Islamov",
+      "format": "workshop",
+      "start": 16.0,
+      "length": 1.0,
+      "location": "IB208 CL"
+    }
+  ],
+  "friday": [],
+  "saturday": []
+}

@@ -1,0 +1,101 @@
+{
+  "monday": [
+    {
+      "name": "Online",
+      "tutor": "Jamshid Nasretdinov",
+      "format": "lecture",
+      "start": 9.0,
+      "length": 1.0,
+      "location": "Lyceum Library"
+    },
+    {
+      "name": "Financial Econometrics and Modelling",
+      "tutor": "Omon Ganiev",
+      "format": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB302"
+    },
+    {
+      "name": "Investment and Risk Management",
+      "tutor": "Hamid Waqas",
+      "format": "online lecture",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB311"
+    }
+  ],
+  "tuesday": [
+    {
+      "name": "Financial Reporting",
+      "tutor": "Jamshid Nasretdinov",
+      "format": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB208 CL"
+    },
+    {
+      "name": "Financial Reporting",
+      "tutor": "Jamshid Nasretdinov",
+      "format": "workshop",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "IB208 CL"
+    },
+    {
+      "name": "Online",
+      "tutor": "Saidgozi Saydumarov",
+      "format": "lecture",
+      "start": 15.0,
+      "length": 1.0,
+      "location": "IB301"
+    }
+  ],
+  "wednesday": [
+    {
+      "name": "Investment and Risk Management",
+      "tutor": "Hamid Waqas",
+      "format": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB312"
+    },
+    {
+      "name": "Investment and Risk Management",
+      "tutor": "Hamid Waqas",
+      "format": "workshop",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "ATB212 CL"
+    }
+  ],
+  "thursday": [
+    {
+      "name": "Financial Econometrics and Modelling",
+      "tutor": "Omon Ganiev",
+      "format": "workshop",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "IB209 CL"
+    }
+  ],
+  "friday": [
+    {
+      "name": "Fixed Income Securities",
+      "tutor": "Saidgozi Saydumarov",
+      "format": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "IB311"
+    },
+    {
+      "name": "Fixed Income Securities",
+      "tutor": "Saidgozi Saydumarov",
+      "format": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB311"
+    }
+  ],
+  "saturday": []
+}

@@ -1,0 +1,68 @@
+{
+  "monday": [],
+  "tuesday": [
+    {
+      "name": "Quality and Operations Management",
+      "tutor": "Sitora Inoyatova",
+      "format": "online lecture",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB310"
+    },
+    {
+      "name": "Comercial and Corporate Law",
+      "tutor": "Nargiza Abdurakhmanova",
+      "format": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "IB310"
+    }
+  ],
+  "wednesday": [
+    {
+      "name": "Management Accounting",
+      "tutor": "Feruza Yodgorova",
+      "format": "online lecture",
+      "start": 12.0,
+      "length": 1.0,
+      "location": "IB311"
+    }
+  ],
+  "thursday": [
+    {
+      "name": "Management Accounting",
+      "tutor": "Abdul Aziz Buriev",
+      "format": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB216"
+    },
+    {
+      "name": "Management Accounting",
+      "tutor": "Abdul Aziz Buriev",
+      "format": "workshop",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "IB209 CL"
+    }
+  ],
+  "friday": [
+    {
+      "name": "Comercial and Corporate Law",
+      "tutor": "Nargiza Abdurakhmanova",
+      "format": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB304"
+    },
+    {
+      "name": "Quality and Operations Management",
+      "tutor": "Jobir Mallaboev",
+      "format": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "IB101"
+    }
+  ],
+  "saturday": []
+}

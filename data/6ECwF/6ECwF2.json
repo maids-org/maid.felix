@@ -1,0 +1,109 @@
+{
+  "monday": [
+    {
+      "name": "Investment and Risk Management",
+      "tutor": "Hamid Waqas",
+      "format": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "ATB211"
+    },
+    {
+      "name": "Investment and Risk Management",
+      "tutor": "Hamid Waqas",
+      "format": "workshop",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "ATB212 CL"
+    },
+    {
+      "name": "Dissertation",
+      "tutor": "Behzod Alimov",
+      "format": "online lecture",
+      "start": 16.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Investment and Risk Management",
+      "tutor": "Hamid Waqas",
+      "format": "online lecture",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB311"
+    }
+  ],
+  "tuesday": [
+    {
+      "name": "Applied Policy Analysis",
+      "tutor": "Rashid Javed",
+      "format": "lecture",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "SHB206 H"
+    }
+  ],
+  "wednesday": [
+    {
+      "name": "Banking Theory and Practice",
+      "tutor": "Hasan AKM Kamrul",
+      "format": "lecture",
+      "start": 9.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Dissertation",
+      "tutor": "Rashid Javed",
+      "format": "seminar",
+      "start": 10.0,
+      "length": 2.0,
+      "location": "ATB311"
+    },
+    {
+      "name": "Labour Economics",
+      "tutor": "Deniz Guvercin",
+      "format": "online lecture",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "IB311"
+    }
+  ],
+  "thursday": [
+    {
+      "name": "Applied Policy Analysis",
+      "tutor": "Rashid Javed",
+      "format": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "SHB303 CL"
+    }
+  ],
+  "friday": [
+    {
+      "name": "Banking Theory and Practice",
+      "tutor": "Dildora Ibragimova",
+      "format": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "ATB209"
+    },
+    {
+      "name": "Banking Theory and Practice",
+      "tutor": "Dildora Ibragimova",
+      "format": "workshop",
+      "start": 15.0,
+      "length": 1.0,
+      "location": "ATB209"
+    },
+    {
+      "name": "Labour Economics",
+      "tutor": "Khilola Dushamova",
+      "format": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "SHB405"
+    }
+  ],
+  "saturday": []
+}

@@ -1,0 +1,68 @@
+{
+  "monday": [
+    {
+      "name": "Banking Theory and Practice",
+      "tutor": "Hasan AKM Kamrul",
+      "format": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "ATB209"
+    },
+    {
+      "name": "Banking Theory and Practice",
+      "tutor": "Hasan AKM Kamrul",
+      "format": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "ATB209"
+    }
+  ],
+  "tuesday": [
+    {
+      "name": "Intermediate Microeconomics",
+      "tutor": "Jahongir Negmatov",
+      "format": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB302"
+    },
+    {
+      "name": "Econometrics",
+      "tutor": "Behzod Alimov",
+      "format": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "ATB311"
+    }
+  ],
+  "wednesday": [
+    {
+      "name": "Banking Theory and Practice",
+      "tutor": "Hasan AKM Kamrul",
+      "format": "lecture",
+      "start": 9.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Intermediate Microeconomics",
+      "tutor": "Muhammed Bilal",
+      "format": "online lecture",
+      "start": 10.0,
+      "length": 2.0,
+      "location": "IB311"
+    }
+  ],
+  "thursday": [],
+  "friday": [],
+  "saturday": [
+    {
+      "name": "Econometrics",
+      "tutor": "Obid Khakimov",
+      "format": "lecture",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB216"
+    }
+  ]
+}

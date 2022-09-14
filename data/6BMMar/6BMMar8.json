@@ -1,0 +1,68 @@
+{
+  "monday": [
+    {
+      "name": "Strategy in a Complex World",
+      "tutor": "Julian Pinerez",
+      "format": "online lecture",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "ATB303"
+    },
+    {
+      "name": "Digital Marketing",
+      "tutor": "Prabha Kiran",
+      "format": "online lecture",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB311"
+    }
+  ],
+  "tuesday": [
+    {
+      "name": "Online / Marketing Analytics",
+      "tutor": "Anil Kumar",
+      "format": "lecture",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "IB311"
+    }
+  ],
+  "wednesday": [],
+  "thursday": [
+    {
+      "name": "Strategy in a Complex World",
+      "tutor": "Timur Perkov",
+      "format": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB310 A"
+    },
+    {
+      "name": "New Venture Creation",
+      "tutor": "Isabel Christina Velasco",
+      "format": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB304"
+    }
+  ],
+  "friday": [
+    {
+      "name": "Marketing Analytics",
+      "tutor": "Anil Kumar",
+      "format": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "SHB303 CL"
+    },
+    {
+      "name": "Digital Marketing",
+      "tutor": "Nasiba Mukhtorova",
+      "format": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB209 CL"
+    }
+  ],
+  "saturday": []
+}

@@ -1,0 +1,77 @@
+{
+  "monday": [
+    {
+      "name": "Global  Business Environment",
+      "tutor": "Dilshoda Rakhmonova",
+      "format": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "ATB301"
+    },
+    {
+      "name": "Global  Business Environment",
+      "tutor": "Dilshoda Rakhmonova",
+      "format": "online lecture",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "ATB301"
+    },
+    {
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Gulomjon Kosimjonov",
+      "format": "online lecture",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB301"
+    }
+  ],
+  "tuesday": [
+    {
+      "name": "Introduction to Statistics and Data Science",
+      "tutor": "Olmas Isakov",
+      "format": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB310B"
+    }
+  ],
+  "wednesday": [
+    {
+      "name": "Financial Accounting",
+      "tutor": "Lilya Memesheva",
+      "format": "online lecture",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB208 CL"
+    },
+    {
+      "name": "Introduction to Management and Organisational Behaviour",
+      "tutor": "Alisher Ismailov",
+      "format": "online lecture",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    }
+  ],
+  "thursday": [
+    {
+      "name": "Financial Accounting",
+      "tutor": "Mohira Abdullaeva",
+      "format": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "IB311"
+    }
+  ],
+  "friday": [
+    {
+      "name": "Introduction to Management and Organisational Behaviour",
+      "tutor": "Athar Hameed Butt",
+      "format": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB314"
+    }
+  ],
+  "saturday": []
+}

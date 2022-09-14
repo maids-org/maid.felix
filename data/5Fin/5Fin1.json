@@ -1,0 +1,76 @@
+{
+  "monday": [
+    {
+      "name": "Financial Econometrics and Modelling",
+      "tutor": "Omon Ganiev",
+      "format": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB302"
+    },
+    {
+      "name": "Corporate Governance for Finance",
+      "tutor": "Hasan AKM Kamrul",
+      "format": "lecture",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "IB301"
+    }
+  ],
+  "tuesday": [],
+  "wednesday": [
+    {
+      "name": "Management Accounting",
+      "tutor": "Feruza Yodgorova",
+      "format": "online lecture",
+      "start": 12.0,
+      "length": 1.0,
+      "location": "IB311"
+    },
+    {
+      "name": "Management Accounting",
+      "tutor": "Abdul Aziz Buriev",
+      "format": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "IB216"
+    },
+    {
+      "name": "Management Accounting",
+      "tutor": "Abdul Aziz Buriev",
+      "format": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB208 CL"
+    }
+  ],
+  "thursday": [
+    {
+      "name": "Financial Econometrics and Modelling",
+      "tutor": "Omon Ganiev",
+      "format": "workshop",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "IB209 CL"
+    }
+  ],
+  "friday": [
+    {
+      "name": "Corporate Governance for Finance",
+      "tutor": "Hasan AKM Kamrul",
+      "format": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB307"
+    },
+    {
+      "name": "Corporate Governance for Finance",
+      "tutor": "Hasan AKM Kamrul",
+      "format": "workshop",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "ATB307"
+    }
+  ],
+  "saturday": []
+}

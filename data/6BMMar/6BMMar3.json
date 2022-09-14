@@ -1,0 +1,117 @@
+{
+  "monday": [
+    {
+      "name": "Strategy in a Complex World",
+      "tutor": "Julian Pinerez",
+      "format": "online lecture",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "ATB303"
+    },
+    {
+      "name": "Digital Marketing",
+      "tutor": "Prabha Kiran",
+      "format": "online lecture",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB311"
+    }
+  ],
+  "tuesday": [
+    {
+      "name": "Quality and Operations Management",
+      "tutor": "Sitora Inoyatova",
+      "format": "online lecture",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB310"
+    },
+    {
+      "name": "Marketing Management",
+      "tutor": "Dildara Gapparova",
+      "format": "online lecture",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Online / Marketing Analytics",
+      "tutor": "Anil Kumar",
+      "format": "lecture",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "IB311"
+    }
+  ],
+  "wednesday": [
+    {
+      "name": "Marketing Analytics",
+      "tutor": "Anil Kumar",
+      "format": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "ATB214 CL"
+    },
+    {
+      "name": "Marketing Management",
+      "tutor": "Makhsuma Abdullaeva",
+      "format": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "ATB218"
+    },
+    {
+      "name": "Marketing Management",
+      "tutor": "Makhsuma Abdullaeva",
+      "format": "workshop",
+      "start": 15.0,
+      "length": 1.0,
+      "location": "ATB218"
+    }
+  ],
+  "thursday": [
+    {
+      "name": "Quality and Operations Management",
+      "tutor": "Shakhnoza Asadova",
+      "format": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB101"
+    },
+    {
+      "name": "Digital Marketing",
+      "tutor": "Prabha Kiran",
+      "format": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB215 CL"
+    },
+    {
+      "name": "Dissertation",
+      "tutor": "Julian Pinerez",
+      "format": "lecture",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    }
+  ],
+  "friday": [
+    {
+      "name": "Strategy in a Complex World",
+      "tutor": "Ahmed Waqas",
+      "format": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB311"
+    },
+    {
+      "name": "Dissertation",
+      "tutor": "Julio Cesar Zuluago",
+      "format": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB211"
+    }
+  ],
+  "saturday": []
+}

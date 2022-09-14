@@ -1,0 +1,68 @@
+{
+  "monday": [
+    {
+      "name": "Strategy in a Complex World",
+      "tutor": "Julian Pinerez",
+      "format": "online lecture",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "ATB303"
+    },
+    {
+      "name": "Digital Marketing",
+      "tutor": "Prabha Kiran",
+      "format": "online lecture",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB311"
+    },
+    {
+      "name": "Digital Marketing",
+      "tutor": "Nasiba Mukhtorova",
+      "format": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "ATB212 CL"
+    }
+  ],
+  "tuesday": [
+    {
+      "name": "Online",
+      "tutor": "Zamira Ataniyazova",
+      "format": "lecture",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB207"
+    }
+  ],
+  "wednesday": [],
+  "thursday": [
+    {
+      "name": "Strategy in a Complex World",
+      "tutor": "Julio Cesar Zuluago",
+      "format": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB214 CL"
+    }
+  ],
+  "friday": [
+    {
+      "name": "Managing Brands",
+      "tutor": "Zamira Ataniyazova",
+      "format": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB207"
+    },
+    {
+      "name": "New Venture Creation",
+      "tutor": "Sarvar Djalalov",
+      "format": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "ATB314"
+    }
+  ],
+  "saturday": []
+}

@@ -1,0 +1,67 @@
+{
+  "monday": [],
+  "tuesday": [
+    {
+      "name": "Quality and Operations Management",
+      "tutor": "Sitora Inoyatova",
+      "format": "online lecture",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB310"
+    },
+    {
+      "name": "Marketing Management",
+      "tutor": "Dildara Gapparova",
+      "format": "online lecture",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "Cross Cultural Management",
+      "tutor": "Natalie Solveig Mikhaylov",
+      "format": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB304"
+    }
+  ],
+  "wednesday": [
+    {
+      "name": "Marketing Management",
+      "tutor": "Makhsuma Abdullaeva",
+      "format": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB211"
+    },
+    {
+      "name": "Marketing Management",
+      "tutor": "Makhsuma Abdullaeva",
+      "format": "workshop",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "ATB211"
+    }
+  ],
+  "thursday": [
+    {
+      "name": "Quality and Operations Management",
+      "tutor": "Shakhnoza Asadova",
+      "format": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB101"
+    },
+    {
+      "name": "Cross Cultural Management",
+      "tutor": "Natalie Solveig Mikhaylov",
+      "format": "workshop",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB312"
+    }
+  ],
+  "friday": [],
+  "saturday": []
+}

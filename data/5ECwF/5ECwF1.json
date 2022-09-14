@@ -1,0 +1,60 @@
+{
+  "monday": [
+    {
+      "name": "Introduction to Political Economy",
+      "tutor": "Akhliddin Malikov",
+      "format": "lecture",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB310 A"
+    }
+  ],
+  "tuesday": [
+    {
+      "name": "Intermediate Microeconomics",
+      "tutor": "Jahongir Negmatov",
+      "format": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB310B"
+    }
+  ],
+  "wednesday": [
+    {
+      "name": "Intermediate Microeconomics",
+      "tutor": "Muhammed Bilal",
+      "format": "online lecture",
+      "start": 10.0,
+      "length": 2.0,
+      "location": "IB311"
+    },
+    {
+      "name": "Introduction to Political Economy",
+      "tutor": "Akhliddin Malikov",
+      "format": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "ATB301"
+    }
+  ],
+  "thursday": [],
+  "friday": [],
+  "saturday": [
+    {
+      "name": "Econometrics",
+      "tutor": "Obid Khakimov",
+      "format": "lecture",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB216"
+    },
+    {
+      "name": "Econometrics",
+      "tutor": "Obid Khakimov",
+      "format": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "ATB304"
+    }
+  ]
+}

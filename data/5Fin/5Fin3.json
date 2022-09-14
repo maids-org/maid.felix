@@ -1,0 +1,52 @@
+{
+  "monday": [
+    {
+      "name": "Management Accounting",
+      "tutor": "Abdulaziz Djalilov",
+      "format": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB306"
+    },
+    {
+      "name": "Management Accounting",
+      "tutor": "Abdulaziz Djalilov",
+      "format": "workshop",
+      "start": 16.0,
+      "length": 1.0,
+      "location": "IB208 CL"
+    }
+  ],
+  "tuesday": [
+    {
+      "name": "Financial Econometrics and Modelling",
+      "tutor": "Rustam Suleymanov",
+      "format": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB101"
+    }
+  ],
+  "wednesday": [
+    {
+      "name": "Management Accounting",
+      "tutor": "Feruza Yodgorova",
+      "format": "online lecture",
+      "start": 12.0,
+      "length": 1.0,
+      "location": "IB311"
+    }
+  ],
+  "thursday": [
+    {
+      "name": "Financial Econometrics and Modelling",
+      "tutor": "Rustam Suleymanov",
+      "format": "workshop",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB202 CL"
+    }
+  ],
+  "friday": [],
+  "saturday": []
+}

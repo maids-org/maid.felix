@@ -1,0 +1,93 @@
+{
+  "monday": [
+    {
+      "name": "Strategy in a Complex World",
+      "tutor": "Julian Pinerez",
+      "format": "online lecture",
+      "start": 10.0,
+      "length": 1.0,
+      "location": "ATB303"
+    },
+    {
+      "name": "Digital Marketing",
+      "tutor": "Prabha Kiran",
+      "format": "online lecture",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB311"
+    },
+    {
+      "name": "Online / Project Management",
+      "tutor": "Iroda Komilova",
+      "format": "lecture",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "IB311"
+    }
+  ],
+  "tuesday": [
+    {
+      "name": "Strategy in a Complex World",
+      "tutor": "Zamira Ataniyazova",
+      "format": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "ATB214 CL"
+    },
+    {
+      "name": "Digital Marketing",
+      "tutor": "Dilmurod Khodiev",
+      "format": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "SHB305 CL"
+    }
+  ],
+  "wednesday": [
+    {
+      "name": "New Venture Creation",
+      "tutor": "Isabel Christina Velasco",
+      "format": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB302"
+    }
+  ],
+  "thursday": [
+    {
+      "name": "Dissertation",
+      "tutor": "Julian Pinerez",
+      "format": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "ATB211"
+    },
+    {
+      "name": "Dissertation",
+      "tutor": "Julian Pinerez",
+      "format": "lecture",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "Harvard306"
+    }
+  ],
+  "friday": [
+    {
+      "name": "Project Management",
+      "tutor": "Shoira Mirzakhidova",
+      "format": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "ATB214 CL"
+    },
+    {
+      "name": "Project Management",
+      "tutor": "Shoira Mirzakhidova",
+      "format": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "ATB214 CL"
+    }
+  ],
+  "saturday": []
+}

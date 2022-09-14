@@ -1,0 +1,60 @@
+{
+  "monday": [
+    {
+      "name": "International Economic Law",
+      "tutor": "Khasan Sayfuddinov",
+      "format": "lecture",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "SHB206 H"
+    }
+  ],
+  "tuesday": [],
+  "wednesday": [
+    {
+      "name": "International Investment Law",
+      "tutor": "Akbar Ismanjanov",
+      "format": "lecture",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB301"
+    },
+    {
+      "name": "Public International Law",
+      "tutor": "Sardor Ruziev",
+      "format": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "IB308"
+    }
+  ],
+  "thursday": [
+    {
+      "name": "Public International Law",
+      "tutor": "Dildora Karimova",
+      "format": "lecture",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB301"
+    }
+  ],
+  "friday": [
+    {
+      "name": "International Economic Law",
+      "tutor": "Khasan Sayfuddinov",
+      "format": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB308"
+    },
+    {
+      "name": "International Investment Law",
+      "tutor": "Timur Abdulazizov",
+      "format": "seminar",
+      "start": 16.0,
+      "length": 2.0,
+      "location": "IB308"
+    }
+  ],
+  "saturday": []
+}

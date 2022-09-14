@@ -1,0 +1,60 @@
+{
+  "monday": [
+    {
+      "name": "Company Law",
+      "tutor": "Feruza Bobokulova",
+      "format": "lecture",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "IB316"
+    }
+  ],
+  "tuesday": [
+    {
+      "name": "Legal Profession and Legal Service",
+      "tutor": "Alexey Gudkov",
+      "format": "lecture",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB316"
+    },
+    {
+      "name": "Company Law",
+      "tutor": "Musojon Rizaev",
+      "format": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB216"
+    }
+  ],
+  "wednesday": [
+    {
+      "name": "International Sales Law",
+      "tutor": "Kholida Sabirova",
+      "format": "lecture",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB309"
+    }
+  ],
+  "thursday": [
+    {
+      "name": "Legal Profession and Legal Service",
+      "tutor": "Alexey Gudkov",
+      "format": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB311"
+    },
+    {
+      "name": "International Sales Law",
+      "tutor": "Kholida Sabirova",
+      "format": "seminar",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB306"
+    }
+  ],
+  "friday": [],
+  "saturday": []
+}

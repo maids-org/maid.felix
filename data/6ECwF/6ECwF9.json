@@ -48,7 +48,7 @@
       "format": "seminar",
       "start": 9.0,
       "length": 2.0,
-      "location": "SHB502"
+      "location": "ATB212 CL"
     },
     {
       "name": "Fixed Income Securities",
@@ -149,7 +149,7 @@
     {
       "name": "Econometrics",
       "tutor": "Obid Khakimov",
-      "format": "lecture",
+      "format": "online lecture",
       "start": 11.0,
       "length": 2.0,
       "location": "IB216"

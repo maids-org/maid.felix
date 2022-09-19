@@ -25,7 +25,24 @@
       "location": "IB301"
     }
   ],
-  "tuesday": [],
+  "tuesday": [
+    {
+      "name": "Management Accounting",
+      "tutor": "Abdul Aziz Buriev",
+      "format": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "IB101"
+    },
+    {
+      "name": "Management Accounting",
+      "tutor": "Abdul Aziz Buriev",
+      "format": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB208 CL"
+    }
+  ],
   "wednesday": [
     {
       "name": "Intermediate Microeconomics",
@@ -36,15 +53,40 @@
       "location": "IB311"
     },
     {
+      "name": "Management Accounting",
+      "tutor": "Feruza Yodgorova",
+      "format": "online lecture",
+      "start": 12.0,
+      "length": 1.0,
+      "location": "IB311"
+    },
+    {
       "name": "Econometrics",
       "tutor": "Behzod Alimov",
       "format": "seminar",
       "start": 16.0,
       "length": 2.0,
-      "location": "IB313"
+      "location": "IB202 CL"
     }
   ],
-  "thursday": [],
+  "thursday": [
+    {
+      "name": "Management Accounting",
+      "tutor": "Abdul Aziz Buriev",
+      "format": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "IB306"
+    },
+    {
+      "name": "Management Accounting",
+      "tutor": "Abdul Aziz Buriev",
+      "format": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB208 CL"
+    }
+  ],
   "friday": [
     {
       "name": "Introduction to Statistics and Data Science",
@@ -67,7 +109,7 @@
     {
       "name": "Econometrics",
       "tutor": "Obid Khakimov",
-      "format": "lecture",
+      "format": "online lecture",
       "start": 11.0,
       "length": 2.0,
       "location": "IB216"

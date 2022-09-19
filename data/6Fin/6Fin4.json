@@ -103,6 +103,14 @@
       "location": "IB215 CL"
     },
     {
+      "name": "Developing Digital Enterprise",
+      "tutor": "Jakhongir Karimov",
+      "format": "online lecture",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "SHB206 H"
+    },
+    {
       "name": "Public Finance",
       "tutor": "Naqeeb Ur Rehman",
       "format": "seminar",
@@ -127,6 +135,14 @@
       "start": 11.0,
       "length": 1.0,
       "location": "IB202 CL"
+    },
+    {
+      "name": "Developing Digital Enterprise",
+      "tutor": "Jakhongir Karimov",
+      "format": "seminar",
+      "start": 13.0,
+      "length": 2.0,
+      "location": "SHB304 CL"
     }
   ],
   "saturday": []

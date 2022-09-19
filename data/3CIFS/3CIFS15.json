@@ -4,9 +4,9 @@
       "name": "Quantitative Methods",
       "tutor": "Indira Khadjieva",
       "format": "online lecture",
-      "start": 11.0,
+      "start": 9.0,
       "length": 2.0,
-      "location": "IB309"
+      "location": "IB311"
     },
     {
       "name": "Developing Professional  Identity",
@@ -52,9 +52,9 @@
       "name": "Quantitative Methods",
       "tutor": "Temur Makhkamov",
       "format": "seminar",
-      "start": 15.0,
+      "start": 9.0,
       "length": 2.0,
-      "location": "SHB407"
+      "location": "IB310"
     }
   ],
   "saturday": []

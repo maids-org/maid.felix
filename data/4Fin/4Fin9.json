@@ -25,7 +25,16 @@
       "location": "IB301"
     }
   ],
-  "tuesday": [],
+  "tuesday": [
+    {
+      "name": "Financial Accounting",
+      "tutor": "Yusufjon Pulatov",
+      "format": "seminar",
+      "start": 12.0,
+      "length": 2.0,
+      "location": "SHB407"
+    }
+  ],
   "wednesday": [
     {
       "name": "Introduction to Statistics and Data Science",
@@ -46,15 +55,6 @@
       "location": "ATB312"
     }
   ],
-  "friday": [
-    {
-      "name": "Financial Accounting",
-      "tutor": "Yusufjon Pulatov",
-      "format": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "IB309"
-    }
-  ],
+  "friday": [],
   "saturday": []
 }

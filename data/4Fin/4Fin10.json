@@ -48,11 +48,11 @@
   "thursday": [
     {
       "name": "Financial Accounting",
-      "tutor": "Gulkhayo Nusratova",
+      "tutor": "Gulhayo Nusratova",
       "format": "seminar",
-      "start": 16.0,
+      "start": 15.0,
       "length": 2.0,
-      "location": "SHB301"
+      "location": "SHB302"
     }
   ],
   "friday": [],

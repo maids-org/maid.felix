@@ -105,6 +105,14 @@
       "location": "SHB206 H"
     },
     {
+      "name": "Distributed Systems and Cloud Computing",
+      "tutor": "Isomiddin Abdunabiev",
+      "format": "seminar",
+      "start": 11.0,
+      "length": 1.0,
+      "location": "SHB304 CL"
+    },
+    {
       "name": "Game Development",
       "tutor": "Akmal Salikov",
       "format": "workshop",
@@ -116,8 +124,8 @@
       "name": "Distributed Systems and Cloud Computing",
       "tutor": "Isomiddin Abdunabiev",
       "format": "seminar",
-      "start": 11.0,
-      "length": 2.0,
+      "start": 12.0,
+      "length": 1.0,
       "location": "SHB304 CL"
     },
     {

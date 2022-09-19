@@ -37,6 +37,14 @@
   ],
   "wednesday": [
     {
+      "name": "Financial Accounting",
+      "tutor": "Lilya Memesheva",
+      "format": "online lecture",
+      "start": 9.0,
+      "length": 1.0,
+      "location": "IB208 CL"
+    },
+    {
       "name": "Introduction to Statistics and Data Science",
       "tutor": "Olmas Isakov",
       "format": "online lecture",
@@ -48,8 +56,8 @@
       "name": "Financial Accounting",
       "tutor": "Lilya Memesheva",
       "format": "online lecture",
-      "start": 9.0,
-      "length": 2.0,
+      "start": 10.0,
+      "length": 1.0,
       "location": "IB208 CL"
     },
     {
@@ -80,7 +88,7 @@
     },
     {
       "name": "Financial Accounting",
-      "tutor": "Mohira Abdullaeva",
+      "tutor": "Yusufjon Pulatov",
       "format": "seminar",
       "start": 16.0,
       "length": 2.0,
@@ -99,7 +107,7 @@
     {
       "name": "Consumer Behaviour",
       "tutor": "Anil Kumar",
-      "format": "online lecture",
+      "format": "lecture",
       "start": 14.0,
       "length": 1.0,
       "location": "ATB207"

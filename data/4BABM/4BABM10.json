@@ -33,6 +33,14 @@
       "start": 11.0,
       "length": 2.0,
       "location": "IB309"
+    },
+    {
+      "name": "Introduction to Management and Organisational Behaviour",
+      "tutor": "Abdurasul Absalomov",
+      "format": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB310 A"
     }
   ],
   "wednesday": [
@@ -63,15 +71,6 @@
       "location": "ATB303"
     }
   ],
-  "friday": [
-    {
-      "name": "Introduction to Management and Organisational Behaviour",
-      "tutor": "Abdurasul Absalomov",
-      "format": "seminar",
-      "start": 11.0,
-      "length": 2.0,
-      "location": "ATB304"
-    }
-  ],
+  "friday": [],
   "saturday": []
 }

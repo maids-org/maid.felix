@@ -38,12 +38,21 @@
     }
   ],
   "thursday": [],
-  "friday": [],
+  "friday": [
+    {
+      "name": "Intermediate Microeconomics",
+      "tutor": "Muhammed Bilal",
+      "format": "seminar",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "ATB307"
+    }
+  ],
   "saturday": [
     {
       "name": "Econometrics",
       "tutor": "Obid Khakimov",
-      "format": "lecture",
+      "format": "online lecture",
       "start": 11.0,
       "length": 2.0,
       "location": "IB216"
@@ -54,7 +63,7 @@
       "format": "seminar",
       "start": 13.0,
       "length": 2.0,
-      "location": "ATB304"
+      "location": "IB202 CL"
     }
   ]
 }

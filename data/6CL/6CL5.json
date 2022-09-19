@@ -11,20 +11,20 @@
   ],
   "tuesday": [
     {
+      "name": "International Economic Law",
+      "tutor": "Khasan Sayfuddinov",
+      "format": "lecture",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "Harvard306"
+    },
+    {
       "name": "International Investment Law",
       "tutor": "Timur Abdulazizov",
       "format": "seminar",
       "start": 14.0,
       "length": 2.0,
       "location": "IB310"
-    },
-    {
-      "name": "International Economic Law",
-      "tutor": "Khasan Sayfuddinov",
-      "format": "lecture",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "IB301"
     }
   ],
   "wednesday": [

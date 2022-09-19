@@ -6,7 +6,7 @@
       "format": "online lecture",
       "start": 9.0,
       "length": 2.0,
-      "location": "IB309"
+      "location": "IB311"
     },
     {
       "name": "I, Citizen",
@@ -20,11 +20,11 @@
   "tuesday": [
     {
       "name": "Quantitative Methods",
-      "tutor": "Yusufjon Pulatov",
+      "tutor": "Indira Khadjieva",
       "format": "seminar",
-      "start": 16.0,
+      "start": 11.0,
       "length": 2.0,
-      "location": "SHB503"
+      "location": "IB301"
     }
   ],
   "wednesday": [

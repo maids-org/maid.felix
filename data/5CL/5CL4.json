@@ -11,14 +11,6 @@
   ],
   "tuesday": [
     {
-      "name": "Legal Profession and Legal Service",
-      "tutor": "Alexey Gudkov",
-      "format": "lecture",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "IB316"
-    },
-    {
       "name": "Company Law",
       "tutor": "Musojon Rizaev",
       "format": "seminar",
@@ -35,6 +27,14 @@
       "start": 11.0,
       "length": 2.0,
       "location": "IB309"
+    },
+    {
+      "name": "Legal Profession and Legal Service",
+      "tutor": "Alexey Gudkov",
+      "format": "lecture",
+      "start": 14.0,
+      "length": 2.0,
+      "location": "Harvard306"
     }
   ],
   "thursday": [

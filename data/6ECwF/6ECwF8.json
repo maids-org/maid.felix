@@ -6,7 +6,7 @@
       "format": "seminar",
       "start": 13.0,
       "length": 2.0,
-      "location": "ATB311"
+      "location": "IB208 CL"
     },
     {
       "name": "Dissertation",
@@ -109,7 +109,7 @@
     {
       "name": "Econometrics",
       "tutor": "Obid Khakimov",
-      "format": "lecture",
+      "format": "online lecture",
       "start": 11.0,
       "length": 2.0,
       "location": "IB216"

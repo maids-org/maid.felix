@@ -10,7 +10,7 @@
     },
     {
       "name": "International Investment Law",
-      "tutor": "Akbar Ismanjanov",
+      "tutor": "Sardor Ruziev",
       "format": "seminar",
       "start": 13.0,
       "length": 2.0,
@@ -20,25 +20,25 @@
   "tuesday": [
     {
       "name": "International Economic Law",
+      "tutor": "Khasan Sayfuddinov",
+      "format": "lecture",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "Harvard306"
+    },
+    {
+      "name": "International Economic Law",
       "tutor": "Nargiza Abdurakhmanova",
       "format": "seminar",
       "start": 14.0,
       "length": 2.0,
       "location": "ATB303"
-    },
-    {
-      "name": "International Economic Law",
-      "tutor": "Khasan Sayfuddinov",
-      "format": "lecture",
-      "start": 16.0,
-      "length": 2.0,
-      "location": "IB301"
     }
   ],
   "wednesday": [
     {
       "name": "Public International Law",
-      "tutor": "Sardor Ruziev",
+      "tutor": "Dildora Karimova",
       "format": "seminar",
       "start": 14.0,
       "length": 2.0,

@@ -27,6 +27,14 @@
   ],
   "tuesday": [
     {
+      "name": "Global  Business Environment",
+      "tutor": "Komiljon Karimov",
+      "format": "seminar",
+      "start": 10.0,
+      "length": 2.0,
+      "location": "ATB310B"
+    },
+    {
       "name": "Introduction to Management and Organisational Behaviour",
       "tutor": "Nizom Kadirov",
       "format": "seminar",
@@ -65,14 +73,5 @@
       "location": "IB216"
     }
   ],
-  "saturday": [
-    {
-      "name": "Global  Business Environment",
-      "tutor": "Komiljon Karimov",
-      "format": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "IB101"
-    }
-  ]
+  "saturday": []
 }

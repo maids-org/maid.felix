@@ -19,6 +19,14 @@
   ],
   "tuesday": [
     {
+      "name": "Quantitative Methods",
+      "tutor": "Indira Khadjieva",
+      "format": "online lecture",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "IB311"
+    },
+    {
       "name": "Academic English",
       "tutor": "Aisulu Kinjemuratova",
       "format": "seminar",
@@ -35,16 +43,7 @@
       "location": "SHB301"
     }
   ],
-  "wednesday": [
-    {
-      "name": "Quantitative Methods",
-      "tutor": "Indira Khadjieva",
-      "format": "online lecture",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "IB316"
-    }
-  ],
+  "wednesday": [],
   "thursday": [
     {
       "name": "Academic English",

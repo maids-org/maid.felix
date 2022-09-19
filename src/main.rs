@@ -36,13 +36,13 @@ fn main() {
         let timetable = instance.get_timetable(group);
         let course = COURSE_RE.find(group).unwrap().as_str();
 
-        let path = data_path.join(course);
+        let path = data_path.join(course.to_uppercase());
         if !path.exists() {
             fs::create_dir_all(&path).expect("failed to create a directory and all of its parents");
         }
 
         let json = serde_json::to_string_pretty(&timetable).unwrap();
-        let path = path.join(format!("{}.json", group));
+        let path = path.join(format!("{}.json", group.to_uppercase()));
         fs::write(&path, json).unwrap();
 
         // sleep a random number of seconds between each request

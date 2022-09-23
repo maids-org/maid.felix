@@ -1,5 +1,14 @@
 {
-  "monday": [],
+  "monday": [
+    {
+      "name": "Corporate Governance for Finance",
+      "tutor": "Hasan AKM Kamrul",
+      "format": "lecture",
+      "start": 13.0,
+      "length": 1.0,
+      "location": "IB301"
+    }
+  ],
   "tuesday": [
     {
       "name": "Quality and Operations Management",
@@ -34,6 +43,22 @@
       "start": 12.0,
       "length": 1.0,
       "location": "IB311"
+    },
+    {
+      "name": "Corporate Governance for Finance",
+      "tutor": "Hasan AKM Kamrul",
+      "format": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "SHB301"
+    },
+    {
+      "name": "Corporate Governance for Finance",
+      "tutor": "Hasan AKM Kamrul",
+      "format": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "SHB301"
     }
   ],
   "thursday": [

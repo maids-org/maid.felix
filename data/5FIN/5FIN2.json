@@ -129,20 +129,20 @@
   ],
   "friday": [
     {
-      "name": "Brand Journalism and Content Strategy",
-      "tutor": "Angelo Battaglia",
-      "format": "online lecture",
-      "start": 9.0,
-      "length": 1.0,
-      "location": "Harvard306"
-    },
-    {
       "name": "Comercial and Corporate Law",
       "tutor": "Nargiza Abdurakhmanova",
       "format": "seminar",
       "start": 9.0,
       "length": 2.0,
       "location": "ATB304"
+    },
+    {
+      "name": "Brand Journalism and Content Strategy",
+      "tutor": "Angelo Battaglia",
+      "format": "online lecture",
+      "start": 9.0,
+      "length": 1.0,
+      "location": "Harvard306"
     },
     {
       "name": "Game Development",

@@ -1,22 +1,6 @@
 {
   "monday": [
     {
-      "name": "Brand Journalism and Content Strategy",
-      "tutor": "Zaylobiddin Zokhitov",
-      "format": "seminar",
-      "start": 9.0,
-      "length": 2.0,
-      "location": "ATB312"
-    },
-    {
-      "name": "Brand Journalism and Content Strategy",
-      "tutor": "Zaylobiddin Zokhitov",
-      "format": "workshop",
-      "start": 11.0,
-      "length": 1.0,
-      "location": "ATB312"
-    },
-    {
       "name": "Cross Cultural Management",
       "tutor": "Olesya Smagina",
       "format": "seminar",
@@ -107,6 +91,22 @@
       "start": 13.0,
       "length": 2.0,
       "location": "IB302"
+    },
+    {
+      "name": "Brand Journalism and Content Strategy",
+      "tutor": "Zaylobiddin Zokhitov",
+      "format": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "IB309"
+    },
+    {
+      "name": "Brand Journalism and Content Strategy",
+      "tutor": "Zaylobiddin Zokhitov",
+      "format": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "IB309"
     }
   ],
   "thursday": [

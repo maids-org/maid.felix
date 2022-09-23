@@ -4,16 +4,8 @@
       "name": "Brand Journalism and Content Strategy",
       "tutor": "Angelo Battaglia",
       "format": "seminar",
-      "start": 9.0,
+      "start": 10.0,
       "length": 2.0,
-      "location": "ATB307"
-    },
-    {
-      "name": "Brand Journalism and Content Strategy",
-      "tutor": "Angelo Battaglia",
-      "format": "workshop",
-      "start": 11.0,
-      "length": 1.0,
       "location": "ATB307"
     },
     {
@@ -23,6 +15,14 @@
       "start": 11.0,
       "length": 2.0,
       "location": "SHB304 CL"
+    },
+    {
+      "name": "Brand Journalism and Content Strategy",
+      "tutor": "Angelo Battaglia",
+      "format": "workshop",
+      "start": 12.0,
+      "length": 1.0,
+      "location": "ATB307"
     }
   ],
   "tuesday": [

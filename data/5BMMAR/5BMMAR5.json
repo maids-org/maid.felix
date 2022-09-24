@@ -1,6 +1,14 @@
 {
   "monday": [
     {
+      "name": "Brand Journalism and Content Strategy",
+      "tutor": "Angelo Battaglia",
+      "format": "online lecture",
+      "start": 9.0,
+      "length": 1.0,
+      "location": "ATB307"
+    },
+    {
       "name": "Marketing Management",
       "tutor": "Dildara Gapparova",
       "format": "seminar",
@@ -47,14 +55,6 @@
     }
   ],
   "friday": [
-    {
-      "name": "Brand Journalism and Content Strategy",
-      "tutor": "Angelo Battaglia",
-      "format": "online lecture",
-      "start": 9.0,
-      "length": 1.0,
-      "location": "Harvard306"
-    },
     {
       "name": "Brand Journalism and Content Strategy",
       "tutor": "Angelo Battaglia",

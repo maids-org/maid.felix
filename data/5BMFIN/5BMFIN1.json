@@ -1,6 +1,14 @@
 {
   "monday": [
     {
+      "name": "Econometrics",
+      "tutor": "Murodullo Bazarov",
+      "format": "seminar",
+      "start": 9.0,
+      "length": 2.0,
+      "location": "ATB214 CL"
+    },
+    {
       "name": "Corporate Governance for Finance",
       "tutor": "Hasan AKM Kamrul",
       "format": "lecture",
@@ -19,12 +27,28 @@
       "location": "IB310"
     },
     {
+      "name": "Corporate Governance for Finance",
+      "tutor": "Hasan AKM Kamrul",
+      "format": "seminar",
+      "start": 15.0,
+      "length": 2.0,
+      "location": "SHB207"
+    },
+    {
       "name": "Comercial and Corporate Law",
       "tutor": "Nargiza Abdurakhmanova",
       "format": "seminar",
       "start": 16.0,
       "length": 2.0,
       "location": "IB310"
+    },
+    {
+      "name": "Corporate Governance for Finance",
+      "tutor": "Hasan AKM Kamrul",
+      "format": "workshop",
+      "start": 17.0,
+      "length": 1.0,
+      "location": "SHB207"
     }
   ],
   "wednesday": [
@@ -43,22 +67,6 @@
       "start": 12.0,
       "length": 1.0,
       "location": "IB311"
-    },
-    {
-      "name": "Corporate Governance for Finance",
-      "tutor": "Hasan AKM Kamrul",
-      "format": "seminar",
-      "start": 15.0,
-      "length": 2.0,
-      "location": "SHB301"
-    },
-    {
-      "name": "Corporate Governance for Finance",
-      "tutor": "Hasan AKM Kamrul",
-      "format": "workshop",
-      "start": 17.0,
-      "length": 1.0,
-      "location": "SHB301"
     }
   ],
   "thursday": [
@@ -105,5 +113,14 @@
       "location": "IB101"
     }
   ],
-  "saturday": []
+  "saturday": [
+    {
+      "name": "Econometrics",
+      "tutor": "Obid Khakimov",
+      "format": "online lecture",
+      "start": 11.0,
+      "length": 2.0,
+      "location": "IB216"
+    }
+  ]
 }

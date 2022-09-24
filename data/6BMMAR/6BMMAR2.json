@@ -1,6 +1,14 @@
 {
   "monday": [
     {
+      "name": "Brand Journalism and Content Strategy",
+      "tutor": "Angelo Battaglia",
+      "format": "online lecture",
+      "start": 9.0,
+      "length": 1.0,
+      "location": "ATB307"
+    },
+    {
       "name": "Strategy in a Complex World",
       "tutor": "Julian Pinerez",
       "format": "online lecture",
@@ -96,14 +104,6 @@
     }
   ],
   "friday": [
-    {
-      "name": "Brand Journalism and Content Strategy",
-      "tutor": "Angelo Battaglia",
-      "format": "online lecture",
-      "start": 9.0,
-      "length": 1.0,
-      "location": "Harvard306"
-    },
     {
       "name": "Strategy in a Complex World",
       "tutor": "Julian Pinerez",

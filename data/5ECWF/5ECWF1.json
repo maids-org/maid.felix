@@ -38,16 +38,7 @@
     }
   ],
   "thursday": [],
-  "friday": [
-    {
-      "name": "Intermediate Microeconomics",
-      "tutor": "Muhammed Bilal",
-      "format": "seminar",
-      "start": 14.0,
-      "length": 2.0,
-      "location": "ATB307"
-    }
-  ],
+  "friday": [],
   "saturday": [
     {
       "name": "Econometrics",

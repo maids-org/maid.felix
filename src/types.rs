@@ -170,13 +170,21 @@ impl TimeTable {
     ///  Return a list of lessons for a given day.
     fn get_day_lessons(slots: Vec<Vec<&str>>) -> Day {
         let mut day: Vec<Lesson> = Vec::new();
+
+        // to handle collisions correctly, we need to keep track of the number
+        // of lessons in the last time slot
+        let mut last_slot_lessons = 0;
         for (offset, slot) in slots.into_iter().enumerate() {
             let lessons = Self::process_slot(slot, offset);
             let number_of_lessons = lessons.len();
 
             for lesson in lessons {
                 let mut lesson_prolonged = false;
-                let start = match day.len().checked_sub(number_of_lessons) {
+                // to check if one of the previous lessons should be prolonged
+                let start = match day
+                    .len()
+                    .checked_sub(number_of_lessons + last_slot_lessons - 1)
+                {
                     Some(num) => num,
                     None => 0,
                 };
@@ -195,6 +203,8 @@ impl TimeTable {
                     day.push(lesson)
                 }
             }
+
+            last_slot_lessons = number_of_lessons;
         }
 
         day

@@ -29,7 +29,7 @@ impl Lesson {
             static ref KILL_BRACKETS_RE: Regex = Regex::new(r"\s?\(\s?\d+\s?\)").unwrap();
         }
 
-        let (name, format) = Self::process_class(data[1]);
+        let (name, format) = Self::process_class(data[1].trim());
         let tutor = data[2].trim().to_string();
         let location = KILL_BRACKETS_RE.replace(data[0], "").trim().to_string();
 
@@ -44,16 +44,30 @@ impl Lesson {
     }
 
     /// Return a tuple with class name as the first & class format as the second item.
-    /// The input string is usually written as: "module name_format_extra_info".
+    /// The input string can be written as:
+    /// 1) "Online_module name_format_extra_info".
+    /// 2) "online / module name_format_extra_info".
+    /// 3) "module name_format_extra_info".
     fn process_class(class: &str) -> (String, String) {
-        let class: Vec<&str> = class.splitn(2, "_").collect();
         let mut format = String::new();
 
-        let mut name = class[0].trim().to_string();
-        if name.starts_with("online / ") {
+        // removing the "online" prefix if it exists.
+        // i really dont want to write a separate regex for this.
+        // pls dont yell at me.
+        let class: &str = if class.to_lowercase().starts_with("online_") {
             format += "online ";
-            name = name.strip_prefix("online / ").unwrap().to_string();
-        }
+            class.split_once("_").unwrap().1
+        } else if class.to_lowercase().starts_with("online /") {
+            format += "online ";
+            class.split_once("/").unwrap().1
+        } else {
+            class
+        };
+
+        let class: Vec<&str> = class.splitn(2, "_").collect();
+
+        let mut name = class[0].trim().to_string();
+
         // module name is incomplete on intranet (4BABM module)
         if name.ends_with("Beha") {
             name += "viour"

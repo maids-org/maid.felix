@@ -1,9 +1,10 @@
 {
-  "monday": [
+  "0": [],
+  "1": [
     {
       "name": "Econometrics",
       "tutor": "Murodullo Bazarov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 9.0,
       "length": 2.0,
       "location": "ATB214 CL"
@@ -11,17 +12,17 @@
     {
       "name": "Mathematics for Economists",
       "tutor": "Farrukh Ataev",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 11.0,
       "length": 2.0,
       "location": "IB301"
     }
   ],
-  "tuesday": [
+  "2": [
     {
       "name": "Management Accounting",
       "tutor": "Abdul Aziz Buriev",
-      "format": "seminar",
+      "type": "seminar",
       "start": 9.0,
       "length": 2.0,
       "location": "IB307"
@@ -29,17 +30,17 @@
     {
       "name": "Management Accounting",
       "tutor": "Abdul Aziz Buriev",
-      "format": "workshop",
+      "type": "workshop",
       "start": 11.0,
       "length": 1.0,
       "location": "IB209 CL"
     }
   ],
-  "wednesday": [
+  "3": [
     {
       "name": "Intermediate Microeconomics",
       "tutor": "Muhammed Bilal",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 10.0,
       "length": 2.0,
       "location": "IB311"
@@ -47,18 +48,18 @@
     {
       "name": "Management Accounting",
       "tutor": "Feruza Yodgorova",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 12.0,
       "length": 1.0,
       "location": "IB311"
     }
   ],
-  "thursday": [],
-  "friday": [
+  "4": [],
+  "5": [
     {
       "name": "Mathematics for Economists",
       "tutor": "Ulugbek Rakhimov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 11.0,
       "length": 2.0,
       "location": "ATB218"
@@ -66,20 +67,21 @@
     {
       "name": "Intermediate Microeconomics",
       "tutor": "Muhammed Bilal",
-      "format": "seminar",
+      "type": "seminar",
       "start": 14.0,
       "length": 2.0,
       "location": "ATB307"
     }
   ],
-  "saturday": [
+  "6": [
     {
       "name": "Econometrics",
       "tutor": "Obid Khakimov",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 11.0,
       "length": 2.0,
       "location": "IB216"
     }
-  ]
+  ],
+  "7": []
 }

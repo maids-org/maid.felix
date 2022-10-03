@@ -1,9 +1,10 @@
 {
-  "monday": [
+  "0": [],
+  "1": [
     {
       "name": "Public Finance",
       "tutor": "Naqeeb Ur Rehman",
-      "format": "seminar",
+      "type": "seminar",
       "start": 12.0,
       "length": 2.0,
       "location": "ATB314"
@@ -11,7 +12,7 @@
     {
       "name": "Financial Econometrics and Modelling",
       "tutor": "Rustam Suleymanov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 14.0,
       "length": 2.0,
       "location": "ATB303"
@@ -19,17 +20,17 @@
     {
       "name": "Introduction to Political Economy",
       "tutor": "Akhliddin Malikov",
-      "format": "lecture",
+      "type": "lecture",
       "start": 16.0,
       "length": 2.0,
       "location": "ATB310 A"
     }
   ],
-  "tuesday": [
+  "2": [
     {
       "name": "Introduction to Political Economy",
       "tutor": "Akhliddin Malikov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 13.0,
       "length": 2.0,
       "location": "ATB301"
@@ -37,17 +38,17 @@
     {
       "name": "Public Finance",
       "tutor": "Naqeeb Ur Rehman",
-      "format": "lecture",
+      "type": "lecture",
       "start": 16.0,
       "length": 2.0,
       "location": "IB316"
     }
   ],
-  "wednesday": [
+  "3": [
     {
       "name": "Management Accounting",
       "tutor": "Feruza Yodgorova",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 12.0,
       "length": 1.0,
       "location": "IB311"
@@ -55,17 +56,17 @@
     {
       "name": "Financial Econometrics and Modelling",
       "tutor": "Rustam Suleymanov",
-      "format": "workshop",
+      "type": "workshop",
       "start": 16.0,
       "length": 2.0,
       "location": "IB215 CL"
     }
   ],
-  "thursday": [
+  "4": [
     {
       "name": "Management Accounting",
       "tutor": "Abdulaziz Djalilov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 14.0,
       "length": 2.0,
       "location": "IB313"
@@ -73,12 +74,13 @@
     {
       "name": "Management Accounting",
       "tutor": "Abdulaziz Djalilov",
-      "format": "workshop",
+      "type": "workshop",
       "start": 16.0,
       "length": 1.0,
       "location": "IB209 CL"
     }
   ],
-  "friday": [],
-  "saturday": []
+  "5": [],
+  "6": [],
+  "7": []
 }

@@ -1,9 +1,10 @@
 {
-  "monday": [
+  "0": [],
+  "1": [
     {
       "name": "Strategy in a Complex World",
       "tutor": "Julian Pinerez",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 10.0,
       "length": 1.0,
       "location": "ATB303"
@@ -11,17 +12,17 @@
     {
       "name": "Digital Marketing",
       "tutor": "Prabha Kiran",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 11.0,
       "length": 2.0,
       "location": "IB311"
     }
   ],
-  "tuesday": [
+  "2": [
     {
       "name": "Online",
       "tutor": "Zamira Ataniyazova",
-      "format": "lecture",
+      "type": "lecture",
       "start": 9.0,
       "length": 2.0,
       "location": "SHB502"
@@ -29,7 +30,7 @@
     {
       "name": "Marketing Management",
       "tutor": "Dildara Gapparova",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 13.0,
       "length": 1.0,
       "location": "Harvard306"
@@ -37,27 +38,27 @@
     {
       "name": "New Venture Creation",
       "tutor": "Sarvar Djalalov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 15.0,
       "length": 2.0,
       "location": "SHB404"
     }
   ],
-  "wednesday": [
+  "3": [
     {
       "name": "Digital Marketing",
       "tutor": "Dilmurod Khodiev",
-      "format": "seminar",
+      "type": "seminar",
       "start": 16.0,
       "length": 2.0,
       "location": "IB209 CL"
     }
   ],
-  "thursday": [
+  "4": [
     {
       "name": "Managing Brands",
       "tutor": "Zamira Ataniyazova",
-      "format": "seminar",
+      "type": "seminar",
       "start": 11.0,
       "length": 2.0,
       "location": "ATB207"
@@ -65,7 +66,7 @@
     {
       "name": "Marketing Management",
       "tutor": "Mamurjon Rahimov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 13.0,
       "length": 2.0,
       "location": "ATB207"
@@ -73,21 +74,22 @@
     {
       "name": "Marketing Management",
       "tutor": "Mamurjon Rahimov",
-      "format": "workshop",
+      "type": "workshop",
       "start": 15.0,
       "length": 1.0,
       "location": "ATB207"
     }
   ],
-  "friday": [
+  "5": [
     {
       "name": "Strategy in a Complex World",
       "tutor": "Julian Pinerez",
-      "format": "seminar",
+      "type": "seminar",
       "start": 16.0,
       "length": 2.0,
       "location": "ATB209"
     }
   ],
-  "saturday": []
+  "6": [],
+  "7": []
 }

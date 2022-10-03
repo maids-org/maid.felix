@@ -1,9 +1,10 @@
 {
-  "monday": [
+  "0": [],
+  "1": [
     {
       "name": "Object Oriented Programming",
       "tutor": "Avazkhan Khalikov",
-      "format": "lecture",
+      "type": "lecture",
       "start": 9.0,
       "length": 2.0,
       "location": "Harvard306"
@@ -11,17 +12,17 @@
     {
       "name": "Object Oriented Programming",
       "tutor": "Bunyod Khoshimkhujaev",
-      "format": "seminar",
+      "type": "seminar",
       "start": 11.0,
       "length": 2.0,
       "location": "ATB214 CL"
     }
   ],
-  "tuesday": [
+  "2": [
     {
       "name": "Database Systems Development",
       "tutor": "Hamid Shakhbazkia",
-      "format": "seminar",
+      "type": "seminar",
       "start": 9.0,
       "length": 2.0,
       "location": "IB209 CL"
@@ -29,7 +30,7 @@
     {
       "name": "Mobile Application Development",
       "tutor": "Valeriya Tsoy",
-      "format": "seminar",
+      "type": "seminar",
       "start": 11.0,
       "length": 2.0,
       "location": "SHB305 CL"
@@ -37,17 +38,17 @@
     {
       "name": "Fundametals of Programming",
       "tutor": "Timur Martinez Mukimov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 15.0,
       "length": 2.0,
       "location": "SHB303 CL"
     }
   ],
-  "wednesday": [
+  "3": [
     {
       "name": "Brand Journalism and Content Strategy",
       "tutor": "Angelo Battaglia",
-      "format": "seminar",
+      "type": "seminar",
       "start": 9.0,
       "length": 1.0,
       "location": "SHB302"
@@ -55,7 +56,7 @@
     {
       "name": "Introduction to Statistics and Data Science",
       "tutor": "Olmas Isakov",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 9.0,
       "length": 1.0,
       "location": "ATB209"
@@ -63,7 +64,7 @@
     {
       "name": "Brand Journalism and Content Strategy",
       "tutor": "Angelo Battaglia",
-      "format": "seminar",
+      "type": "seminar",
       "start": 10.0,
       "length": 1.0,
       "location": "SHB302"
@@ -71,7 +72,7 @@
     {
       "name": "Brand Journalism and Content Strategy",
       "tutor": "Angelo Battaglia",
-      "format": "workshop",
+      "type": "workshop",
       "start": 11.0,
       "length": 1.0,
       "location": "SHB302"
@@ -79,17 +80,17 @@
     {
       "name": "Computer Science Fundamentals",
       "tutor": "Olga Yugay",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 14.0,
       "length": 2.0,
       "location": "SHB305 CL"
     }
   ],
-  "thursday": [
+  "4": [
     {
       "name": "Computer Science Fundamentals",
       "tutor": "Olga Yugay",
-      "format": "seminar",
+      "type": "seminar",
       "start": 9.0,
       "length": 2.0,
       "location": "SHB303 CL"
@@ -97,7 +98,7 @@
     {
       "name": "Mobile Application Development",
       "tutor": "Valeriya Tsoy",
-      "format": "lecture",
+      "type": "lecture",
       "start": 11.0,
       "length": 1.0,
       "location": "SHB206 H"
@@ -105,17 +106,17 @@
     {
       "name": "Mobile Application Development",
       "tutor": "Valeriya Tsoy",
-      "format": "workshop",
+      "type": "workshop",
       "start": 12.0,
       "length": 1.0,
       "location": "SHB206 H"
     }
   ],
-  "friday": [
+  "5": [
     {
       "name": "Game Development",
       "tutor": "Akmal Salikov",
-      "format": "lecture",
+      "type": "lecture",
       "start": 10.0,
       "length": 1.0,
       "location": "SHB206 H"
@@ -123,7 +124,7 @@
     {
       "name": "Game Development",
       "tutor": "Akmal Salikov",
-      "format": "workshop",
+      "type": "workshop",
       "start": 11.0,
       "length": 1.0,
       "location": "SHB206 H"
@@ -131,7 +132,7 @@
     {
       "name": "Game Development",
       "tutor": "Akmal Salikov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 13.0,
       "length": 2.0,
       "location": "SHB305 CL"
@@ -139,11 +140,12 @@
     {
       "name": "Introduction to Statistics and Data Science",
       "tutor": "Evgeniya Shalaeva",
-      "format": "seminar",
+      "type": "seminar",
       "start": 16.0,
       "length": 2.0,
       "location": "IB316"
     }
   ],
-  "saturday": []
+  "6": [],
+  "7": []
 }

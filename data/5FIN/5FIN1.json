@@ -1,9 +1,10 @@
 {
-  "monday": [
+  "0": [],
+  "1": [
     {
       "name": "Financial Econometrics and Modelling",
       "tutor": "Omon Ganiev",
-      "format": "seminar",
+      "type": "seminar",
       "start": 11.0,
       "length": 2.0,
       "location": "IB302"
@@ -11,18 +12,18 @@
     {
       "name": "Corporate Governance for Finance",
       "tutor": "Hasan AKM Kamrul",
-      "format": "lecture",
+      "type": "lecture",
       "start": 13.0,
       "length": 1.0,
       "location": "IB301"
     }
   ],
-  "tuesday": [],
-  "wednesday": [
+  "2": [],
+  "3": [
     {
       "name": "Management Accounting",
       "tutor": "Feruza Yodgorova",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 12.0,
       "length": 1.0,
       "location": "IB311"
@@ -30,7 +31,7 @@
     {
       "name": "Management Accounting",
       "tutor": "Abdul Aziz Buriev",
-      "format": "seminar",
+      "type": "seminar",
       "start": 15.0,
       "length": 2.0,
       "location": "IB216"
@@ -38,27 +39,27 @@
     {
       "name": "Management Accounting",
       "tutor": "Abdul Aziz Buriev",
-      "format": "workshop",
+      "type": "workshop",
       "start": 17.0,
       "length": 1.0,
       "location": "IB208 CL"
     }
   ],
-  "thursday": [
+  "4": [
     {
       "name": "Financial Econometrics and Modelling",
       "tutor": "Omon Ganiev",
-      "format": "workshop",
+      "type": "workshop",
       "start": 12.0,
       "length": 2.0,
       "location": "IB209 CL"
     }
   ],
-  "friday": [
+  "5": [
     {
       "name": "Corporate Governance for Finance",
       "tutor": "Hasan AKM Kamrul",
-      "format": "seminar",
+      "type": "seminar",
       "start": 9.0,
       "length": 2.0,
       "location": "ATB307"
@@ -66,11 +67,12 @@
     {
       "name": "Corporate Governance for Finance",
       "tutor": "Hasan AKM Kamrul",
-      "format": "workshop",
+      "type": "workshop",
       "start": 11.0,
       "length": 1.0,
       "location": "ATB307"
     }
   ],
-  "saturday": []
+  "6": [],
+  "7": []
 }

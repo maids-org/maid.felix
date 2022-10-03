@@ -1,9 +1,10 @@
 {
-  "monday": [
+  "0": [],
+  "1": [
     {
       "name": "Contemporary Issues in Global Economics",
       "tutor": "Bilol Buzrukov",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 9.0,
       "length": 2.0,
       "location": "ATB309"
@@ -11,27 +12,27 @@
     {
       "name": "Mathematics for Economists",
       "tutor": "Farrukh Ataev",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 11.0,
       "length": 2.0,
       "location": "IB301"
     }
   ],
-  "tuesday": [
+  "2": [
     {
       "name": "Contemporary Issues in Global Economics",
       "tutor": "Bilol Buzrukov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 11.0,
       "length": 2.0,
       "location": "ATB301"
     }
   ],
-  "wednesday": [
+  "3": [
     {
       "name": "Introduction to Statistics and Data Science",
       "tutor": "Olmas Isakov",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 9.0,
       "length": 1.0,
       "location": "ATB209"
@@ -39,7 +40,7 @@
     {
       "name": "Exploring Economics",
       "tutor": "Zohid Askarov",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 10.0,
       "length": 1.0,
       "location": "ATB209"
@@ -47,31 +48,32 @@
     {
       "name": "Exploring Economics",
       "tutor": "Khilola Dushamova",
-      "format": "seminar",
+      "type": "seminar",
       "start": 16.0,
       "length": 2.0,
       "location": "ATB310 A"
     }
   ],
-  "thursday": [
+  "4": [
     {
       "name": "Introduction to Statistics and Data Science",
       "tutor": "Ahmed Junaid",
-      "format": "seminar",
+      "type": "seminar",
       "start": 13.0,
       "length": 2.0,
       "location": "SHB405"
     }
   ],
-  "friday": [
+  "5": [
     {
       "name": "Mathematics for Economists",
       "tutor": "Zarrukh Rakhimov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 9.0,
       "length": 2.0,
       "location": "IB302"
     }
   ],
-  "saturday": []
+  "6": [],
+  "7": []
 }

@@ -1,9 +1,10 @@
 {
-  "monday": [
+  "0": [],
+  "1": [
     {
       "name": "Mathematics for Economists",
       "tutor": "Farrukh Ataev",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 11.0,
       "length": 2.0,
       "location": "IB301"
@@ -11,7 +12,7 @@
     {
       "name": "Intermediate Microeconomics",
       "tutor": "Muhammed Bilal",
-      "format": "seminar",
+      "type": "seminar",
       "start": 14.0,
       "length": 2.0,
       "location": "ATB207"
@@ -19,17 +20,17 @@
     {
       "name": "Introduction to Statistics and Data Science",
       "tutor": "Gulomjon Kosimjonov",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 17.0,
       "length": 1.0,
       "location": "IB301"
     }
   ],
-  "tuesday": [
+  "2": [
     {
       "name": "Management Accounting",
       "tutor": "Abdul Aziz Buriev",
-      "format": "seminar",
+      "type": "seminar",
       "start": 15.0,
       "length": 2.0,
       "location": "IB101"
@@ -37,17 +38,17 @@
     {
       "name": "Management Accounting",
       "tutor": "Abdul Aziz Buriev",
-      "format": "workshop",
+      "type": "workshop",
       "start": 17.0,
       "length": 1.0,
       "location": "IB208 CL"
     }
   ],
-  "wednesday": [
+  "3": [
     {
       "name": "Intermediate Microeconomics",
       "tutor": "Muhammed Bilal",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 10.0,
       "length": 2.0,
       "location": "IB311"
@@ -55,7 +56,7 @@
     {
       "name": "Management Accounting",
       "tutor": "Feruza Yodgorova",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 12.0,
       "length": 1.0,
       "location": "IB311"
@@ -63,17 +64,17 @@
     {
       "name": "Econometrics",
       "tutor": "Behzod Alimov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 16.0,
       "length": 2.0,
       "location": "IB202 CL"
     }
   ],
-  "thursday": [
+  "4": [
     {
       "name": "Management Accounting",
       "tutor": "Abdul Aziz Buriev",
-      "format": "seminar",
+      "type": "seminar",
       "start": 15.0,
       "length": 2.0,
       "location": "IB306"
@@ -81,17 +82,17 @@
     {
       "name": "Management Accounting",
       "tutor": "Abdul Aziz Buriev",
-      "format": "workshop",
+      "type": "workshop",
       "start": 17.0,
       "length": 1.0,
       "location": "IB208 CL"
     }
   ],
-  "friday": [
+  "5": [
     {
       "name": "Introduction to Statistics and Data Science",
       "tutor": "Gayrat Suyunov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 13.0,
       "length": 2.0,
       "location": "ATB314"
@@ -99,20 +100,21 @@
     {
       "name": "Mathematics for Economists",
       "tutor": "Farrukh Ataev",
-      "format": "seminar",
+      "type": "seminar",
       "start": 13.0,
       "length": 2.0,
       "location": "ATB309"
     }
   ],
-  "saturday": [
+  "6": [
     {
       "name": "Econometrics",
       "tutor": "Obid Khakimov",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 11.0,
       "length": 2.0,
       "location": "IB216"
     }
-  ]
+  ],
+  "7": []
 }

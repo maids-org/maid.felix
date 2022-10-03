@@ -1,9 +1,10 @@
 {
-  "monday": [
+  "0": [],
+  "1": [
     {
       "name": "Legal Profession and Legal Service",
       "tutor": "Alexey Gudkov",
-      "format": "lecture",
+      "type": "lecture",
       "start": 9.0,
       "length": 2.0,
       "location": "IB301"
@@ -11,51 +12,52 @@
     {
       "name": "International Sales Law",
       "tutor": "Kholida Sabirova",
-      "format": "lecture",
+      "type": "lecture",
       "start": 11.0,
       "length": 2.0,
       "location": "Harvard306"
     }
   ],
-  "tuesday": [
+  "2": [
     {
       "name": "Legal Profession and Legal Service",
       "tutor": "Tamilla Tagieva",
-      "format": "seminar",
+      "type": "seminar",
       "start": 16.0,
       "length": 2.0,
       "location": "IB308"
     }
   ],
-  "wednesday": [
+  "3": [
     {
       "name": "Company Law",
       "tutor": "Musojon Rizaev",
-      "format": "seminar",
+      "type": "seminar",
       "start": 11.0,
       "length": 2.0,
       "location": "IB308"
     }
   ],
-  "thursday": [
+  "4": [
     {
       "name": "Company Law",
       "tutor": "Feruza Bobokulova",
-      "format": "lecture",
+      "type": "lecture",
       "start": 16.0,
       "length": 2.0,
       "location": "IB301"
     }
   ],
-  "friday": [
+  "5": [
     {
       "name": "International Sales Law",
       "tutor": "Musojon Rizaev",
-      "format": "seminar",
+      "type": "seminar",
       "start": 11.0,
       "length": 2.0,
       "location": "IB308"
     }
   ],
-  "saturday": []
+  "6": [],
+  "7": []
 }

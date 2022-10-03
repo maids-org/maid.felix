@@ -1,9 +1,10 @@
 {
-  "monday": [
+  "0": [],
+  "1": [
     {
       "name": "Computer Science Fundamentals",
       "tutor": "Isomiddin Abdunabiev",
-      "format": "seminar",
+      "type": "seminar",
       "start": 11.0,
       "length": 2.0,
       "location": "SHB408 CL"
@@ -11,27 +12,27 @@
     {
       "name": "Introduction to Management and Organisational Behaviour",
       "tutor": "Farhod Karimov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 14.0,
       "length": 2.0,
       "location": "IB101"
     }
   ],
-  "tuesday": [
+  "2": [
     {
       "name": "Fundametals of Programming",
       "tutor": "Timur Martinez Mukimov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 15.0,
       "length": 2.0,
       "location": "SHB303 CL"
     }
   ],
-  "wednesday": [
+  "3": [
     {
       "name": "Introduction to Statistics and Data Science",
       "tutor": "Olmas Isakov",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 9.0,
       "length": 1.0,
       "location": "ATB209"
@@ -39,7 +40,7 @@
     {
       "name": "Introduction to Management and Organisational Behaviour",
       "tutor": "Alisher Ismailov",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 11.0,
       "length": 1.0,
       "location": "Harvard306"
@@ -47,31 +48,32 @@
     {
       "name": "Computer Science Fundamentals",
       "tutor": "Olga Yugay",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 14.0,
       "length": 2.0,
       "location": "SHB305 CL"
     }
   ],
-  "thursday": [
+  "4": [
     {
       "name": "Introduction to Statistics and Data Science",
       "tutor": "Gayrat Suyunov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 16.0,
       "length": 2.0,
       "location": "ATB207"
     }
   ],
-  "friday": [
+  "5": [
     {
       "name": "Web Technology",
       "tutor": "Said Abduvaliev",
-      "format": "seminar",
+      "type": "seminar",
       "start": 16.0,
       "length": 2.0,
       "location": "SHB303 CL"
     }
   ],
-  "saturday": []
+  "6": [],
+  "7": []
 }

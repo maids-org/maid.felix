@@ -1,9 +1,10 @@
 {
-  "monday": [
+  "0": [],
+  "1": [
     {
       "name": "Strategy in a Complex World",
       "tutor": "Julian Pinerez",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 10.0,
       "length": 1.0,
       "location": "ATB303"
@@ -11,7 +12,7 @@
     {
       "name": "Digital Marketing",
       "tutor": "Prabha Kiran",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 11.0,
       "length": 2.0,
       "location": "IB311"
@@ -19,17 +20,17 @@
     {
       "name": "Digital Marketing",
       "tutor": "Prabha Kiran",
-      "format": "seminar",
+      "type": "seminar",
       "start": 15.0,
       "length": 2.0,
       "location": "IB215 CL"
     }
   ],
-  "tuesday": [
+  "2": [
     {
       "name": "Online",
       "tutor": "Zamira Ataniyazova",
-      "format": "lecture",
+      "type": "lecture",
       "start": 9.0,
       "length": 2.0,
       "location": "SHB502"
@@ -37,17 +38,17 @@
     {
       "name": "Marketing Management",
       "tutor": "Dildara Gapparova",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 13.0,
       "length": 1.0,
       "location": "Harvard306"
     }
   ],
-  "wednesday": [
+  "3": [
     {
       "name": "Strategy in a Complex World",
       "tutor": "Timur Perkov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 9.0,
       "length": 2.0,
       "location": "ATB310B"
@@ -55,17 +56,17 @@
     {
       "name": "Managing Brands",
       "tutor": "Zamira Ataniyazova",
-      "format": "seminar",
+      "type": "seminar",
       "start": 11.0,
       "length": 2.0,
       "location": "ATB207"
     }
   ],
-  "thursday": [
+  "4": [
     {
       "name": "New Venture Creation",
       "tutor": "Isabel Christina Velasco",
-      "format": "seminar",
+      "type": "seminar",
       "start": 12.0,
       "length": 2.0,
       "location": "ATB310B"
@@ -73,7 +74,7 @@
     {
       "name": "Developing Digital Enterprise",
       "tutor": "Jakhongir Karimov",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 15.0,
       "length": 2.0,
       "location": "SHB206 H"
@@ -81,17 +82,17 @@
     {
       "name": "Dissertation",
       "tutor": "Julian Pinerez",
-      "format": "lecture",
+      "type": "lecture",
       "start": 17.0,
       "length": 1.0,
       "location": "Harvard306"
     }
   ],
-  "friday": [
+  "5": [
     {
       "name": "Developing Digital Enterprise",
       "tutor": "Jakhongir Karimov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 11.0,
       "length": 2.0,
       "location": "SHB408 CL"
@@ -99,7 +100,7 @@
     {
       "name": "Marketing Management",
       "tutor": "Dildara Gapparova",
-      "format": "seminar",
+      "type": "seminar",
       "start": 11.0,
       "length": 2.0,
       "location": "IB301"
@@ -107,7 +108,7 @@
     {
       "name": "Marketing Management",
       "tutor": "Dildara Gapparova",
-      "format": "workshop",
+      "type": "workshop",
       "start": 13.0,
       "length": 1.0,
       "location": "IB301"
@@ -115,7 +116,7 @@
     {
       "name": "Consumer Behaviour",
       "tutor": "Anil Kumar",
-      "format": "lecture",
+      "type": "lecture",
       "start": 14.0,
       "length": 1.0,
       "location": "ATB207"
@@ -123,7 +124,7 @@
     {
       "name": "Dissertation",
       "tutor": "Julio Cesar Zuluago",
-      "format": "seminar",
+      "type": "seminar",
       "start": 14.0,
       "length": 2.0,
       "location": "ATB310B"
@@ -131,7 +132,7 @@
     {
       "name": "Consumer Behaviour",
       "tutor": "Anil Kumar",
-      "format": "seminar",
+      "type": "seminar",
       "start": 15.0,
       "length": 2.0,
       "location": "ATB207"
@@ -139,11 +140,12 @@
     {
       "name": "Consumer Behaviour",
       "tutor": "Anil Kumar",
-      "format": "workshop",
+      "type": "workshop",
       "start": 17.0,
       "length": 1.0,
       "location": "ATB207"
     }
   ],
-  "saturday": []
+  "6": [],
+  "7": []
 }

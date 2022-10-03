@@ -1,9 +1,10 @@
 {
-  "monday": [
+  "0": [],
+  "1": [
     {
       "name": "Quantitative Methods",
       "tutor": "Indira Khadjieva",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 9.0,
       "length": 2.0,
       "location": "IB311"
@@ -11,17 +12,17 @@
     {
       "name": "Quantitative Methods",
       "tutor": "Temur Makhkamov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 12.0,
       "length": 2.0,
       "location": "IB101"
     }
   ],
-  "tuesday": [
+  "2": [
     {
       "name": "Academic English",
       "tutor": "Liliya Makovskaya",
-      "format": "seminar",
+      "type": "seminar",
       "start": 9.0,
       "length": 2.0,
       "location": "SHB406"
@@ -29,32 +30,33 @@
     {
       "name": "Developing Professional  Identity",
       "tutor": "Dildora Tashpulatova",
-      "format": "seminar",
+      "type": "seminar",
       "start": 11.0,
       "length": 2.0,
       "location": "SHB503"
     }
   ],
-  "wednesday": [
+  "3": [
     {
       "name": "I, Citizen",
       "tutor": "Nigina Rustamova",
-      "format": "seminar",
+      "type": "seminar",
       "start": 12.0,
       "length": 2.0,
       "location": "ATB314"
     }
   ],
-  "thursday": [
+  "4": [
     {
       "name": "Academic English",
       "tutor": "Liliya Makovskaya",
-      "format": "seminar",
+      "type": "seminar",
       "start": 9.0,
       "length": 2.0,
       "location": "SHB406"
     }
   ],
-  "friday": [],
-  "saturday": []
+  "5": [],
+  "6": [],
+  "7": []
 }

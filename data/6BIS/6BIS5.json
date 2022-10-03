@@ -1,9 +1,10 @@
 {
-  "monday": [
+  "0": [],
+  "1": [
     {
       "name": "Digital Marketing",
       "tutor": "Prabha Kiran",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 11.0,
       "length": 2.0,
       "location": "IB311"
@@ -11,17 +12,17 @@
     {
       "name": "Online / Project Management",
       "tutor": "Iroda Komilova",
-      "format": "lecture",
+      "type": "lecture",
       "start": 13.0,
       "length": 1.0,
       "location": "IB311"
     }
   ],
-  "tuesday": [
+  "2": [
     {
       "name": "Network Operations",
       "tutor": "Vasiliy Kuznetsov",
-      "format": "lecture",
+      "type": "lecture",
       "start": 9.0,
       "length": 2.0,
       "location": "IB306"
@@ -29,7 +30,7 @@
     {
       "name": "Project Management",
       "tutor": "Ulugbek Islamov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 9.0,
       "length": 2.0,
       "location": "ATB218"
@@ -37,7 +38,7 @@
     {
       "name": "Project Management",
       "tutor": "Ulugbek Islamov",
-      "format": "workshop",
+      "type": "workshop",
       "start": 11.0,
       "length": 1.0,
       "location": "ATB218"
@@ -45,7 +46,7 @@
     {
       "name": "Developing Digital Enterprise",
       "tutor": "Jakhongir Karimov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 13.0,
       "length": 2.0,
       "location": "SHB304 CL"
@@ -53,17 +54,17 @@
     {
       "name": "Machine Learning and Data Analytics",
       "tutor": "Hamid Shakhbazkia",
-      "format": "seminar",
+      "type": "seminar",
       "start": 15.0,
       "length": 2.0,
       "location": "SHB408 CL"
     }
   ],
-  "wednesday": [
+  "3": [
     {
       "name": "Machine Learning and Data Analytics",
       "tutor": "Hamid Shakhbazkia",
-      "format": "lecture",
+      "type": "lecture",
       "start": 14.0,
       "length": 2.0,
       "location": "SHB206 H"
@@ -71,7 +72,7 @@
     {
       "name": "Network Operations",
       "tutor": "Vasiliy Kuznetsov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 16.0,
       "length": 2.0,
       "location": "SHB303 CL"
@@ -79,7 +80,7 @@
     {
       "name": "Game Development",
       "tutor": "Akmal Salikov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 16.0,
       "length": 2.0,
       "location": "SHB305 CL"
@@ -87,7 +88,7 @@
     {
       "name": "Distributed Systems and Cloud Computing",
       "tutor": "Isomiddin Abdunabiev",
-      "format": "lecture",
+      "type": "lecture",
       "start": 16.0,
       "length": 1.0,
       "location": "SHB206 H"
@@ -95,17 +96,17 @@
     {
       "name": "Distributed Systems and Cloud Computing",
       "tutor": "Isomiddin Abdunabiev",
-      "format": "workshop",
+      "type": "workshop",
       "start": 17.0,
       "length": 1.0,
       "location": "SHB206 H"
     }
   ],
-  "thursday": [
+  "4": [
     {
       "name": "Business Information Systems Project",
       "tutor": "Shodiyabegim Bakhtiyorzoda",
-      "format": "seminar",
+      "type": "seminar",
       "start": 14.0,
       "length": 1.0,
       "location": "SHB206 H"
@@ -113,17 +114,17 @@
     {
       "name": "Developing Digital Enterprise",
       "tutor": "Jakhongir Karimov",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 15.0,
       "length": 2.0,
       "location": "SHB206 H"
     }
   ],
-  "friday": [
+  "5": [
     {
       "name": "Game Development",
       "tutor": "Akmal Salikov",
-      "format": "lecture",
+      "type": "lecture",
       "start": 10.0,
       "length": 1.0,
       "location": "SHB206 H"
@@ -131,7 +132,7 @@
     {
       "name": "Distributed Systems and Cloud Computing",
       "tutor": "Isomiddin Abdunabiev",
-      "format": "seminar",
+      "type": "seminar",
       "start": 11.0,
       "length": 1.0,
       "location": "SHB304 CL"
@@ -139,7 +140,7 @@
     {
       "name": "Game Development",
       "tutor": "Akmal Salikov",
-      "format": "workshop",
+      "type": "workshop",
       "start": 11.0,
       "length": 1.0,
       "location": "SHB206 H"
@@ -147,7 +148,7 @@
     {
       "name": "Distributed Systems and Cloud Computing",
       "tutor": "Isomiddin Abdunabiev",
-      "format": "seminar",
+      "type": "seminar",
       "start": 12.0,
       "length": 1.0,
       "location": "SHB304 CL"
@@ -155,11 +156,12 @@
     {
       "name": "Digital Marketing",
       "tutor": "Nasiba Mukhtorova",
-      "format": "seminar",
+      "type": "seminar",
       "start": 13.0,
       "length": 2.0,
       "location": "IB208 CL"
     }
   ],
-  "saturday": []
+  "6": [],
+  "7": []
 }

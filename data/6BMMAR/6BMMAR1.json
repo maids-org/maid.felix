@@ -1,9 +1,10 @@
 {
-  "monday": [
+  "0": [],
+  "1": [
     {
       "name": "Strategy in a Complex World",
       "tutor": "Julian Pinerez",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 10.0,
       "length": 1.0,
       "location": "ATB303"
@@ -11,7 +12,7 @@
     {
       "name": "Digital Marketing",
       "tutor": "Prabha Kiran",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 11.0,
       "length": 2.0,
       "location": "IB311"
@@ -19,17 +20,17 @@
     {
       "name": "Marketing Analytics",
       "tutor": "Anil Kumar",
-      "format": "seminar",
+      "type": "seminar",
       "start": 16.0,
       "length": 2.0,
       "location": "ATB214 CL"
     }
   ],
-  "tuesday": [
+  "2": [
     {
       "name": "Online",
       "tutor": "Zamira Ataniyazova",
-      "format": "lecture",
+      "type": "lecture",
       "start": 9.0,
       "length": 2.0,
       "location": "SHB502"
@@ -37,17 +38,17 @@
     {
       "name": "Online / Marketing Analytics",
       "tutor": "Anil Kumar",
-      "format": "lecture",
+      "type": "lecture",
       "start": 16.0,
       "length": 2.0,
       "location": "IB311"
     }
   ],
-  "wednesday": [
+  "3": [
     {
       "name": "New Venture Creation",
       "tutor": "Alisher Ismailov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 14.0,
       "length": 2.0,
       "location": "ATB311"
@@ -55,31 +56,32 @@
     {
       "name": "Strategy in a Complex World",
       "tutor": "Ahmed Waqas",
-      "format": "seminar",
+      "type": "seminar",
       "start": 16.0,
       "length": 2.0,
       "location": "ATB209"
     }
   ],
-  "thursday": [
+  "4": [
     {
       "name": "Managing Brands",
       "tutor": "Zamira Ataniyazova",
-      "format": "seminar",
+      "type": "seminar",
       "start": 9.0,
       "length": 2.0,
       "location": "ATB207"
     }
   ],
-  "friday": [
+  "5": [
     {
       "name": "Digital Marketing",
       "tutor": "Prabha Kiran",
-      "format": "seminar",
+      "type": "seminar",
       "start": 9.0,
       "length": 2.0,
       "location": "ATB212 CL"
     }
   ],
-  "saturday": []
+  "6": [],
+  "7": []
 }

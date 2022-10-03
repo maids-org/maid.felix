@@ -1,29 +1,30 @@
 {
-  "monday": [
+  "0": [],
+  "1": [
     {
       "name": "International Economic Law",
       "tutor": "Nargiza Abdurakhmanova",
-      "format": "seminar",
+      "type": "seminar",
       "start": 16.0,
       "length": 2.0,
       "location": "IB308"
     }
   ],
-  "tuesday": [
+  "2": [
     {
       "name": "International Economic Law",
       "tutor": "Khasan Sayfuddinov",
-      "format": "lecture",
+      "type": "lecture",
       "start": 11.0,
       "length": 2.0,
       "location": "Harvard306"
     }
   ],
-  "wednesday": [
+  "3": [
     {
       "name": "International Investment Law",
       "tutor": "Sardor Ruziev",
-      "format": "seminar",
+      "type": "seminar",
       "start": 14.0,
       "length": 2.0,
       "location": "IB306"
@@ -31,31 +32,32 @@
     {
       "name": "International Investment Law",
       "tutor": "Akbar Ismanjanov",
-      "format": "lecture",
+      "type": "lecture",
       "start": 16.0,
       "length": 2.0,
       "location": "IB301"
     }
   ],
-  "thursday": [
+  "4": [
     {
       "name": "Public International Law",
       "tutor": "Dildora Karimova",
-      "format": "lecture",
+      "type": "lecture",
       "start": 13.0,
       "length": 2.0,
       "location": "IB301"
     }
   ],
-  "friday": [
+  "5": [
     {
       "name": "Public International Law",
       "tutor": "Dildora Karimova",
-      "format": "seminar",
+      "type": "seminar",
       "start": 13.0,
       "length": 2.0,
       "location": "IB313"
     }
   ],
-  "saturday": []
+  "6": [],
+  "7": []
 }

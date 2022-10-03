@@ -1,9 +1,10 @@
 {
-  "monday": [
+  "0": [],
+  "1": [
     {
       "name": "Corporate Governance for Finance",
       "tutor": "Hasan AKM Kamrul",
-      "format": "lecture",
+      "type": "lecture",
       "start": 13.0,
       "length": 1.0,
       "location": "IB301"
@@ -11,7 +12,7 @@
     {
       "name": "Management Accounting",
       "tutor": "Abdulaziz Djalilov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 14.0,
       "length": 2.0,
       "location": "IB306"
@@ -19,27 +20,27 @@
     {
       "name": "Management Accounting",
       "tutor": "Abdulaziz Djalilov",
-      "format": "workshop",
+      "type": "workshop",
       "start": 16.0,
       "length": 1.0,
       "location": "IB208 CL"
     }
   ],
-  "tuesday": [
+  "2": [
     {
       "name": "Financial Econometrics and Modelling",
       "tutor": "Rustam Suleymanov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 11.0,
       "length": 2.0,
       "location": "IB101"
     }
   ],
-  "wednesday": [
+  "3": [
     {
       "name": "Management Accounting",
       "tutor": "Feruza Yodgorova",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 12.0,
       "length": 1.0,
       "location": "IB311"
@@ -47,7 +48,7 @@
     {
       "name": "Corporate Governance for Finance",
       "tutor": "Hasan AKM Kamrul",
-      "format": "seminar",
+      "type": "seminar",
       "start": 15.0,
       "length": 2.0,
       "location": "SHB301"
@@ -55,22 +56,23 @@
     {
       "name": "Corporate Governance for Finance",
       "tutor": "Hasan AKM Kamrul",
-      "format": "workshop",
+      "type": "workshop",
       "start": 17.0,
       "length": 1.0,
       "location": "SHB301"
     }
   ],
-  "thursday": [
+  "4": [
     {
       "name": "Financial Econometrics and Modelling",
       "tutor": "Rustam Suleymanov",
-      "format": "workshop",
+      "type": "workshop",
       "start": 14.0,
       "length": 2.0,
       "location": "IB202 CL"
     }
   ],
-  "friday": [],
-  "saturday": []
+  "5": [],
+  "6": [],
+  "7": []
 }

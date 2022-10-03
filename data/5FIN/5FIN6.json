@@ -1,9 +1,10 @@
 {
-  "monday": [
+  "0": [],
+  "1": [
     {
       "name": "Financial Econometrics and Modelling",
       "tutor": "Rustam Suleymanov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 12.0,
       "length": 2.0,
       "location": "ATB303"
@@ -11,37 +12,37 @@
     {
       "name": "Public Finance",
       "tutor": "Naqeeb Ur Rehman",
-      "format": "seminar",
+      "type": "seminar",
       "start": 14.0,
       "length": 2.0,
       "location": "ATB310B"
     }
   ],
-  "tuesday": [
+  "2": [
     {
       "name": "Public Finance",
       "tutor": "Naqeeb Ur Rehman",
-      "format": "lecture",
+      "type": "lecture",
       "start": 16.0,
       "length": 2.0,
       "location": "IB316"
     }
   ],
-  "wednesday": [
+  "3": [
     {
       "name": "Management Accounting",
       "tutor": "Feruza Yodgorova",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 12.0,
       "length": 1.0,
       "location": "IB311"
     }
   ],
-  "thursday": [
+  "4": [
     {
       "name": "Management Accounting",
       "tutor": "Abdul Aziz Buriev",
-      "format": "seminar",
+      "type": "seminar",
       "start": 15.0,
       "length": 2.0,
       "location": "IB306"
@@ -49,21 +50,22 @@
     {
       "name": "Management Accounting",
       "tutor": "Abdul Aziz Buriev",
-      "format": "workshop",
+      "type": "workshop",
       "start": 17.0,
       "length": 1.0,
       "location": "IB208 CL"
     }
   ],
-  "friday": [
+  "5": [
     {
       "name": "Financial Econometrics and Modelling",
       "tutor": "Rustam Suleymanov",
-      "format": "workshop",
+      "type": "workshop",
       "start": 9.0,
       "length": 2.0,
       "location": "ATB214 CL"
     }
   ],
-  "saturday": []
+  "6": [],
+  "7": []
 }

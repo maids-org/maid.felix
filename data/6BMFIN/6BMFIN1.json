@@ -1,9 +1,10 @@
 {
-  "monday": [
+  "0": [],
+  "1": [
     {
       "name": "Strategy in a Complex World",
       "tutor": "Julian Pinerez",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 10.0,
       "length": 1.0,
       "location": "ATB303"
@@ -11,17 +12,17 @@
     {
       "name": "Investment and Risk Management",
       "tutor": "Hamid Waqas",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 17.0,
       "length": 1.0,
       "location": "IB311"
     }
   ],
-  "tuesday": [
+  "2": [
     {
       "name": "Applied Corporate Finance",
       "tutor": "Pavel Serov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 15.0,
       "length": 2.0,
       "location": "IB202 CL"
@@ -29,17 +30,17 @@
     {
       "name": "Applied Corporate Finance",
       "tutor": "Pavel Serov",
-      "format": "workshop",
+      "type": "workshop",
       "start": 17.0,
       "length": 1.0,
       "location": "IB202 CL"
     }
   ],
-  "wednesday": [
+  "3": [
     {
       "name": "Strategy in a Complex World",
       "tutor": "Julian Pinerez",
-      "format": "seminar",
+      "type": "seminar",
       "start": 11.0,
       "length": 2.0,
       "location": "ATB301"
@@ -47,17 +48,17 @@
     {
       "name": "Applied Corporate Finance",
       "tutor": "Murtaza Niazi",
-      "format": "lecture",
+      "type": "lecture",
       "start": 13.0,
       "length": 1.0,
       "location": "Harvard306"
     }
   ],
-  "thursday": [
+  "4": [
     {
       "name": "Dissertation",
       "tutor": "Julian Pinerez",
-      "format": "seminar",
+      "type": "seminar",
       "start": 15.0,
       "length": 2.0,
       "location": "ATB211"
@@ -65,17 +66,17 @@
     {
       "name": "Dissertation",
       "tutor": "Julian Pinerez",
-      "format": "lecture",
+      "type": "lecture",
       "start": 17.0,
       "length": 1.0,
       "location": "Harvard306"
     }
   ],
-  "friday": [
+  "5": [
     {
       "name": "Investment and Risk Management",
       "tutor": "Ajay Jain",
-      "format": "seminar",
+      "type": "seminar",
       "start": 12.0,
       "length": 2.0,
       "location": "ATB211"
@@ -83,7 +84,7 @@
     {
       "name": "Investment and Risk Management",
       "tutor": "Ajay Jain",
-      "format": "workshop",
+      "type": "workshop",
       "start": 14.0,
       "length": 1.0,
       "location": "ATB212 CL"
@@ -91,11 +92,12 @@
     {
       "name": "New Venture Creation",
       "tutor": "Ahmed Waqas",
-      "format": "seminar",
+      "type": "seminar",
       "start": 16.0,
       "length": 2.0,
       "location": "ATB303"
     }
   ],
-  "saturday": []
+  "6": [],
+  "7": []
 }

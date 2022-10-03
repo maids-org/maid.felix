@@ -1,9 +1,10 @@
 {
-  "monday": [
+  "0": [],
+  "1": [
     {
       "name": "Dissertation in Law",
       "tutor": "Tamilla Tagieva",
-      "format": "seminar",
+      "type": "seminar",
       "start": 15.0,
       "length": 1.0,
       "location": "IB309"
@@ -11,27 +12,27 @@
     {
       "name": "International Economic Law",
       "tutor": "Khasan Sayfuddinov",
-      "format": "lecture",
+      "type": "lecture",
       "start": 16.0,
       "length": 2.0,
       "location": "SHB206 H"
     }
   ],
-  "tuesday": [
+  "2": [
     {
       "name": "Public International Law",
       "tutor": "Dildora Karimova",
-      "format": "seminar",
+      "type": "seminar",
       "start": 11.0,
       "length": 2.0,
       "location": "IB316"
     }
   ],
-  "wednesday": [
+  "3": [
     {
       "name": "International Economic Law",
       "tutor": "Khasan Sayfuddinov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 11.0,
       "length": 2.0,
       "location": "IB307"
@@ -39,17 +40,17 @@
     {
       "name": "International Investment Law",
       "tutor": "Akbar Ismanjanov",
-      "format": "lecture",
+      "type": "lecture",
       "start": 14.0,
       "length": 2.0,
       "location": "IB301"
     }
   ],
-  "thursday": [
+  "4": [
     {
       "name": "Public International Law",
       "tutor": "Dildora Karimova",
-      "format": "lecture",
+      "type": "lecture",
       "start": 11.0,
       "length": 2.0,
       "location": "IB301"
@@ -57,12 +58,13 @@
     {
       "name": "International Investment Law",
       "tutor": "Timur Abdulazizov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 14.0,
       "length": 2.0,
       "location": "IB308"
     }
   ],
-  "friday": [],
-  "saturday": []
+  "5": [],
+  "6": [],
+  "7": []
 }

@@ -1,9 +1,10 @@
 {
-  "monday": [
+  "0": [],
+  "1": [
     {
       "name": "Strategy in a Complex World",
       "tutor": "Julian Pinerez",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 10.0,
       "length": 1.0,
       "location": "ATB303"
@@ -11,7 +12,7 @@
     {
       "name": "Digital Marketing",
       "tutor": "Prabha Kiran",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 11.0,
       "length": 2.0,
       "location": "IB311"
@@ -19,17 +20,17 @@
     {
       "name": "Online / Project Management",
       "tutor": "Iroda Komilova",
-      "format": "lecture",
+      "type": "lecture",
       "start": 13.0,
       "length": 1.0,
       "location": "IB311"
     }
   ],
-  "tuesday": [
+  "2": [
     {
       "name": "Strategy in a Complex World",
       "tutor": "Zamira Ataniyazova",
-      "format": "seminar",
+      "type": "seminar",
       "start": 11.0,
       "length": 2.0,
       "location": "SHB502"
@@ -37,27 +38,27 @@
     {
       "name": "Digital Marketing",
       "tutor": "Dilmurod Khodiev",
-      "format": "seminar",
+      "type": "seminar",
       "start": 16.0,
       "length": 2.0,
       "location": "SHB305 CL"
     }
   ],
-  "wednesday": [
+  "3": [
     {
       "name": "New Venture Creation",
       "tutor": "Isabel Christina Velasco",
-      "format": "seminar",
+      "type": "seminar",
       "start": 14.0,
       "length": 2.0,
       "location": "ATB302"
     }
   ],
-  "thursday": [
+  "4": [
     {
       "name": "Dissertation",
       "tutor": "Julian Pinerez",
-      "format": "seminar",
+      "type": "seminar",
       "start": 15.0,
       "length": 2.0,
       "location": "ATB211"
@@ -65,17 +66,17 @@
     {
       "name": "Dissertation",
       "tutor": "Julian Pinerez",
-      "format": "lecture",
+      "type": "lecture",
       "start": 17.0,
       "length": 1.0,
       "location": "Harvard306"
     }
   ],
-  "friday": [
+  "5": [
     {
       "name": "Project Management",
       "tutor": "Shoira Mirzakhidova",
-      "format": "seminar",
+      "type": "seminar",
       "start": 15.0,
       "length": 2.0,
       "location": "ATB214 CL"
@@ -83,11 +84,12 @@
     {
       "name": "Project Management",
       "tutor": "Shoira Mirzakhidova",
-      "format": "workshop",
+      "type": "workshop",
       "start": 17.0,
       "length": 1.0,
       "location": "ATB214 CL"
     }
   ],
-  "saturday": []
+  "6": [],
+  "7": []
 }

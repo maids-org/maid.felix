@@ -1,9 +1,10 @@
 {
-  "monday": [
+  "0": [],
+  "1": [
     {
       "name": "Brand Journalism and Content Strategy",
       "tutor": "Angelo Battaglia",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 9.0,
       "length": 1.0,
       "location": "ATB307"
@@ -11,7 +12,7 @@
     {
       "name": "Cross Cultural Management",
       "tutor": "Olesya Smagina",
-      "format": "seminar",
+      "type": "seminar",
       "start": 12.0,
       "length": 2.0,
       "location": "IB216"
@@ -19,7 +20,7 @@
     {
       "name": "Financial Accounting",
       "tutor": "Lilya Memesheva",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 13.0,
       "length": 2.0,
       "location": "IB309"
@@ -27,7 +28,7 @@
     {
       "name": "Global  Business Environment",
       "tutor": "Dilshoda Rakhmonova",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 15.0,
       "length": 2.0,
       "location": "ATB301"
@@ -35,17 +36,17 @@
     {
       "name": "Introduction to Statistics and Data Science",
       "tutor": "Gulomjon Kosimjonov",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 17.0,
       "length": 1.0,
       "location": "IB301"
     }
   ],
-  "tuesday": [
+  "2": [
     {
       "name": "Quality and Operations Management",
       "tutor": "Sitora Inoyatova",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 11.0,
       "length": 2.0,
       "location": "IB310"
@@ -53,7 +54,7 @@
     {
       "name": "Marketing Management",
       "tutor": "Dildara Gapparova",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 13.0,
       "length": 1.0,
       "location": "Harvard306"
@@ -61,7 +62,7 @@
     {
       "name": "Management Accounting",
       "tutor": "Abdul Aziz Buriev",
-      "format": "seminar",
+      "type": "seminar",
       "start": 15.0,
       "length": 2.0,
       "location": "IB101"
@@ -69,17 +70,17 @@
     {
       "name": "Management Accounting",
       "tutor": "Abdul Aziz Buriev",
-      "format": "workshop",
+      "type": "workshop",
       "start": 17.0,
       "length": 1.0,
       "location": "IB208 CL"
     }
   ],
-  "wednesday": [
+  "3": [
     {
       "name": "Cross Cultural Management",
       "tutor": "Olesya Smagina",
-      "format": "workshop",
+      "type": "workshop",
       "start": 11.0,
       "length": 2.0,
       "location": "IB101"
@@ -87,7 +88,7 @@
     {
       "name": "Management Accounting",
       "tutor": "Feruza Yodgorova",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 12.0,
       "length": 1.0,
       "location": "IB311"
@@ -95,7 +96,7 @@
     {
       "name": "Financial Accounting",
       "tutor": "Lilya Memesheva",
-      "format": "seminar",
+      "type": "seminar",
       "start": 13.0,
       "length": 2.0,
       "location": "IB302"
@@ -103,7 +104,7 @@
     {
       "name": "Brand Journalism and Content Strategy",
       "tutor": "Zaylobiddin Zokhitov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 15.0,
       "length": 2.0,
       "location": "IB309"
@@ -111,17 +112,17 @@
     {
       "name": "Brand Journalism and Content Strategy",
       "tutor": "Zaylobiddin Zokhitov",
-      "format": "workshop",
+      "type": "workshop",
       "start": 17.0,
       "length": 1.0,
       "location": "IB309"
     }
   ],
-  "thursday": [
+  "4": [
     {
       "name": "Global  Business Environment",
       "tutor": "Nigora Saidmuradova",
-      "format": "seminar",
+      "type": "seminar",
       "start": 9.0,
       "length": 2.0,
       "location": "ATB303"
@@ -129,7 +130,7 @@
     {
       "name": "Marketing Management",
       "tutor": "Mamurjon Rahimov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 13.0,
       "length": 2.0,
       "location": "ATB207"
@@ -137,17 +138,17 @@
     {
       "name": "Marketing Management",
       "tutor": "Mamurjon Rahimov",
-      "format": "workshop",
+      "type": "workshop",
       "start": 15.0,
       "length": 1.0,
       "location": "ATB207"
     }
   ],
-  "friday": [
+  "5": [
     {
       "name": "Game Development",
       "tutor": "Akmal Salikov",
-      "format": "lecture",
+      "type": "lecture",
       "start": 10.0,
       "length": 1.0,
       "location": "SHB206 H"
@@ -155,7 +156,7 @@
     {
       "name": "Game Development",
       "tutor": "Akmal Salikov",
-      "format": "workshop",
+      "type": "workshop",
       "start": 11.0,
       "length": 1.0,
       "location": "SHB206 H"
@@ -163,7 +164,7 @@
     {
       "name": "Quality and Operations Management",
       "tutor": "Shakhnoza Asadova",
-      "format": "seminar",
+      "type": "seminar",
       "start": 14.0,
       "length": 2.0,
       "location": "IB302"
@@ -171,11 +172,12 @@
     {
       "name": "Introduction to Statistics and Data Science",
       "tutor": "Evgeniya Shalaeva",
-      "format": "seminar",
+      "type": "seminar",
       "start": 16.0,
       "length": 2.0,
       "location": "IB316"
     }
   ],
-  "saturday": []
+  "6": [],
+  "7": []
 }

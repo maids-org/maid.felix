@@ -1,9 +1,10 @@
 {
-  "monday": [
+  "0": [],
+  "1": [
     {
       "name": "Financial Accounting",
       "tutor": "Lilya Memesheva",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 13.0,
       "length": 2.0,
       "location": "IB309"
@@ -11,7 +12,7 @@
     {
       "name": "Global  Business Environment",
       "tutor": "Dilshoda Rakhmonova",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 15.0,
       "length": 2.0,
       "location": "ATB301"
@@ -19,42 +20,43 @@
     {
       "name": "Introduction to Statistics and Data Science",
       "tutor": "Gulomjon Kosimjonov",
-      "format": "online lecture",
+      "type": "online lecture",
       "start": 17.0,
       "length": 1.0,
       "location": "IB301"
     }
   ],
-  "tuesday": [
+  "2": [
     {
       "name": "Financial Accounting",
       "tutor": "Yusufjon Pulatov",
-      "format": "seminar",
+      "type": "seminar",
       "start": 12.0,
       "length": 2.0,
       "location": "SHB407"
     }
   ],
-  "wednesday": [
+  "3": [
     {
       "name": "Introduction to Statistics and Data Science",
       "tutor": "Farrukh Ataev",
-      "format": "seminar",
+      "type": "seminar",
       "start": 12.0,
       "length": 2.0,
       "location": "ATB307"
     }
   ],
-  "thursday": [
+  "4": [
     {
       "name": "Global  Business Environment",
       "tutor": "Nadejda Kim",
-      "format": "seminar",
+      "type": "seminar",
       "start": 12.0,
       "length": 2.0,
       "location": "ATB312"
     }
   ],
-  "friday": [],
-  "saturday": []
+  "5": [],
+  "6": [],
+  "7": []
 }

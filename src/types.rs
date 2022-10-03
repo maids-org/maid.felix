@@ -10,6 +10,7 @@ pub struct Lesson {
     /// Name of the tutor giving the lesson (eg "THE MYTH & THE LEGEND, OLMOS ISAKOV").
     pub tutor: String,
     /// Lesson format. Can be either "lecture", "online lecture", "seminar" or "workshop".
+    #[serde(rename = "type")]
     pub format: String,
     /// The time at which the lesson starts.
     pub start: f32,
@@ -88,24 +89,36 @@ pub type Day = Vec<Lesson>;
 /// that given day. The vector is empty if there are no Lessons on that day.
 #[derive(Serialize, Debug)]
 pub struct TimeTable {
+    #[serde(rename = "0")]
+    pub sunday: Day,
+    #[serde(rename = "1")]
     pub monday: Day,
+    #[serde(rename = "2")]
     pub tuesday: Day,
+    #[serde(rename = "3")]
     pub wednesday: Day,
+    #[serde(rename = "4")]
     pub thursday: Day,
+    #[serde(rename = "5")]
     pub friday: Day,
+    #[serde(rename = "6")]
     pub saturday: Day,
+    #[serde(rename = "7")]
+    pub another_sunday: Day,
 }
 
 impl TimeTable {
     /// Construct a new instance of an empty TimeTable.
     fn new() -> Self {
         TimeTable {
+            sunday: Vec::new(),
             monday: Vec::new(),
             tuesday: Vec::new(),
             wednesday: Vec::new(),
             thursday: Vec::new(),
             friday: Vec::new(),
             saturday: Vec::new(),
+            another_sunday: Vec::new(),
         }
     }
 

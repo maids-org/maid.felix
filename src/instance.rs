@@ -74,7 +74,7 @@ impl Instance {
             .text()
             .unwrap();
 
-        let document = Html::parse_document(&response);
+        let document = Html::parse_document(response);
 
         TimeTable::from_html(document)
     }

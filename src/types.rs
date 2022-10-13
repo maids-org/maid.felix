@@ -56,15 +56,15 @@ impl Lesson {
         // pls dont yell at me.
         let class: &str = if class.to_lowercase().starts_with("online_") {
             format += "online ";
-            class.split_once("_").unwrap().1
+            class.split_once('_').unwrap().1
         } else if class.to_lowercase().starts_with("online /") {
             format += "online ";
-            class.split_once("/").unwrap().1
+            class.split_once('/').unwrap().1
         } else {
             class
         };
 
-        let class: Vec<&str> = class.splitn(2, "_").collect();
+        let class: Vec<&str> = class.splitn(2, '_').collect();
 
         let mut name = class[0].trim().to_string();
 
@@ -181,13 +181,9 @@ impl TimeTable {
             for lesson in lessons {
                 let mut lesson_prolonged = false;
                 // to check if one of the previous lessons should be prolonged
-                let start = match day
+                let start = day
                     .len()
-                    .checked_sub(number_of_lessons + last_slot_lessons - 1)
-                {
-                    Some(num) => num,
-                    None => 0,
-                };
+                    .saturating_sub(number_of_lessons + last_slot_lessons - 1);
 
                 for index in start..day.len() {
                     if let Some(previous_lesson) = day.get_mut(index) {

@@ -47,6 +47,6 @@ fn main() {
 
         // sleep a random number of seconds between each request
         // since we don't want to overwhelm wiut's servers.....right?
-        sleep(Duration::from_secs_f64(rng.gen_range(0.5..1.4142)))
+        sleep(Duration::from_secs_f64(rng.gen_range(0.5..1.0)))
     }
 }

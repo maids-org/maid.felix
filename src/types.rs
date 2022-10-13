@@ -223,9 +223,9 @@ impl TimeTable {
             .filter(|text| !(text.trim().is_empty() || GROUP_RE.is_match(text)))
             .collect();
 
-        // for now one class does not have a location (5Fin6 Intro to Crypto)
+        // for now one class does not have a teacher (3CIFS25 Academic English)
         if data.len() == 2 {
-            data.insert(0, "blockchain");
+            data.push("John Cena");
         }
 
         let mut lessons: Vec<Lesson> = Vec::new();
